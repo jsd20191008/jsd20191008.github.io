@@ -2220,10 +2220,10 @@
 },
 {
 	"uri": "/",
-	"title": "JSR",
+	"title": "JSD",
 	"tags": [],
 	"description": "",
-	"content": " JSR - JavaScript Development "
+	"content": " JSD - JavaScript Development "
 },
 {
 	"uri": "/02-javascript-basics/truthy-falsey/",
