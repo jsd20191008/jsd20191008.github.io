@@ -550,7 +550,7 @@ $ heroku login   </description>
       <description>Strings  Strings can consist of letters and other characters
  They are surrounded by either double quotes or single quotes (this is how you recognize you are working with a string)
  Concatenation allows you to combine strings
-  // declare a variable called color and store a string  let color = &amp;#34;green&amp;#34;  Single or double quotes can be used for strings, but the opening quote must match the closing quote</description>
+  // declare a variable called color and store a string  const color = &amp;#34;green&amp;#34;  Single or double quotes can be used for strings, but the opening quote must match the closing quote</description>
     </item>
     
     <item>
