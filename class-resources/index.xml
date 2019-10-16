@@ -142,6 +142,20 @@ HTML &amp;amp; CSS  Codecademy - HTML &amp;amp; CSS course
     </item>
     
     <item>
+      <title>Coding Challenge Sites</title>
+      <link>/class-resources/coding-challenge-sites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/coding-challenge-sites/</guid>
+      <description> Coding Challenge Sites The following a list of sites that offer coding challenges (i.e. exercises) that will help you sharpen you programming skills:
+ Coderbyte | The #1 Coding Assessment Platform
+ Dashboard | HackerRank
+ Train with Programming Challenges/Kata | Codewars
+ Exercism
+  </description>
+    </item>
+    
+    <item>
       <title>CORS</title>
       <link>/class-resources/cors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
