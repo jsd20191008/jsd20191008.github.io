@@ -167,6 +167,18 @@
     </item>
     
     <item>
+      <title>Warm Up: JS Basics, Control Flow and Loops Practice</title>
+      <link>/05-arrays-objects/warm-up-js-basics-control-flow-loops-practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-arrays-objects/warm-up-js-basics-control-flow-loops-practice/</guid>
+      <description> Warm Up: JS Basics, Control Flow and Loops  Work in groups of 2-3 to solve problems using Control Flow and Loops
+ The problem set for this warm up is hosted on Github, see the url below:
+ Warm Up: JS Basics, Control Flow and Loops Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
       <title>What is jQuery?</title>
       <link>/06-dom-and-jquery/jquery-overview/what-is-jquery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -978,6 +990,18 @@ const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new P
       
       <guid>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</guid>
       <description>Handling Async Issues with Async / Await  Let&amp;rsquo;s see how we can apply Async / Await to your .printLetter() program  Example: Using Async / Await to control the execution order of async functions function printLetter(letter) { return new Promise((resolve, reject) =&amp;gt; { setTimeout(() =&amp;gt; { console.log(letter) resolve() }, Math.floor(Math.random() * 3000)) }) } /* convert .printAll() to an async / await function by prepending &amp;#39;await&amp;#39; before the function keyword */ async function printAll(){ await printLetter(&amp;#34;A&amp;#34;) await printLetter(&amp;#34;B&amp;#34;) await printLetter(&amp;#34;C&amp;#34;) await printLetter(&amp;#34;D&amp;#34;) } console.</description>
+    </item>
+    
+    <item>
+      <title>HW Assignment #1</title>
+      <link>/homework-assignments/hw-assignment-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework-assignments/hw-assignment-01/</guid>
+      <description> Summary of this week&amp;rsquo;s homework assignment: Due Date: Thursday, October 24th
+Complete Homework #1 - Functions  You are tasked with completing the problem set which is hosted on Github, see the url below:
+ Github Repo for Homework #1 - Functions  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
     </item>
     
     <item>
