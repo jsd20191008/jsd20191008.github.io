@@ -193,7 +193,7 @@
 	"title": "HTTP Requests",
 	"tags": [],
 	"description": "",
-	"content": " HTTP Requests  An HTTP request is made by a client, to a named host, which is located on a server\n The aim of the request is to access a resource on the server.\n To make the request, the Client uses components of a URL (Uniform Resource Locator), which includes the information needed to access the resource\n A correctly composed HTTP request contains the following elements:\n A request line\n A series of HTTP headers, or header fields\n A message body, if needed\n   Request Line  The request line is the first line in the request message. It consists of at least three items:   A HTTP method\n The method is a one-word command that tells the server what it should do with the resource. For example, the server could be asked to send the resource to the client.  The path component of the URL for the request:\n The path identifies the resource on the server.  The HTTP version number:\n The HTTP specification to which the client has tried to make the message comply (current version is 1.1 but you don\u0026rsquo;t have to worry about this)   Example Request Line GET /path/to/resource/index.html HTTP/1.1\n the method is GET\n the path is /path/to/resource/index.html\n the HTTP version is HTTP/1.1\n  The HTTP Client (e.g. web browser) is responsible for constructing this request line; as developers we just need to know how this works\n "
+	"content": " HTTP Requests  An HTTP request is made by a client, to a named host, which is located on a server\n The aim of the request is to access a resource on the server.\n To make the request, the Client uses components of a URL (Uniform Resource Locator), which includes the information needed to access the resource\n A correctly composed HTTP request contains the following elements:\n A request line\n A series of HTTP headers, or header fields\n A message body, if needed\n   The HTTP Client (e.g. web browser) is responsible for constructing this request line; as developers we just need to know how this works\n -- "
 },
 {
 	"uri": "/09-http-and-apis/json/json-stringify/",
@@ -676,7 +676,7 @@
 	"title": "HTTP Responses",
 	"tags": [],
 	"description": "",
-	"content": " HTTP Responses  An HTTP response is made by a server to a client\n The aim of the response is to provide the client with the resource it requested, or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request\n An HTTP response contains:\n A status line\n A series of HTTP headers, or header fields\n A message body, which is usually needed\n   Status Line  The status line is the first line in the response message. It consists of at least three items:   The HTTP version number\n The HTTP specification to which the server has tried to make the message comply.  A status code\n Three-digit number indicating the result of the request  A reason phrase\n also known as status text, which is human-readable text that summarizes the meaning of the status code   Example Status Line HTTP/1.1 200 OK\n the HTTP version is HTTP/1.1\n the status code is 200\n the reason phrase is OK\n  The Server is responsible for constructing the status line of a request\n "
+	"content": " HTTP Responses  An HTTP response is made by a server to a client\n The aim of the response is to provide the client with the resource it requested, or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request\n An HTTP response contains:\n A status line\n A series of HTTP headers, or header fields\n A message body, which is usually needed\n   The Server is responsible for constructing the status line of a request\n -- "
 },
 {
 	"uri": "/homework-assignments/hw-assignment-01/",
@@ -826,11 +826,11 @@
 	"content": " while Loop  While loops run its statements as long as a specified condition evaluates to true  while (condition) { statement } // run some other code   If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop  Example let n = 0 while (n \u0026lt; 5) { console.log(n) n++ }  JS Bin on jsbin.com\nExercise Write a program that uses a while loop to print (using console.log()) a countdown from 10 to 1\nJS Bin on jsbin.com\n"
 },
 {
-	"uri": "/09-http-and-apis/apis/",
-	"title": "APIs",
+	"uri": "/09-http-and-apis/code-along-crud-api-requests/",
+	"title": "Code Along: CRUD API Requests",
 	"tags": [],
 	"description": "",
-	"content": " APIs  Overview   Finding APIs   Data Formats   API Keys   "
+	"content": " Code Along: CRUD API Requests with Colors API During this Code Along, we\u0026rsquo;ll be using Insomnia to make API requests to a REST-based API\nBASE API URL: https://powerful-earth-34468.herokuapp.com/api/v1/\nAPI Endpoints:    Endpoint Description     GET /colors retrieve list of colors   GET /colors/:id retrieve details for one color   POST /colors create a new color   PUT /colors/:id update an existing color   DELETE /colors/:id delete an existing color    "
 },
 {
 	"uri": "/13-object-oriented-js/classes/encapsulation/",
@@ -838,6 +838,13 @@
 	"tags": [],
 	"description": "",
 	"content": " What is Encapsulation?  A core concept in OOP\n Refers to enclosing all the functionality of an object within that object so that the object’s internal workings (its methods and properties) are hidden from the rest of the application\n This allows us to only we only expose data and functionality that is needed to accomplish such a task and nothing else; this makes your code less prone to errors\n The means breaking up our classes / objects into two 2 parts\n Public Interface - what everyone needs to know in order to get our object to accomplish some task\n Private Interface - the inner workings of the object, the parts that most people don\u0026rsquo;t see, \u0026ldquo;under the hood\u0026rdquo;\n  Real-world Analogy: Cars\n Public Interface - everything needed to accomplish the core task of getting people from point A to point B; knowledge of how to drive the car, park the car, turn on air conditioning, etc\n Private Interface - everything \u0026ldquo;under the hood\u0026rdquo; or \u0026ldquo;behind the scenes\u0026rdquo; necessary for the car to be able to function and provide all of the \u0026ldquo;features\u0026rdquo; available in the public interface\n   Most people know how to operate a car (public interface) but they probably don\u0026rsquo;t know much about fixing an engine (private interface)\nEncapsulation in JavaScript  Encapsulation can be achieved with JavaScript Classes by not directly \u0026ldquo;exposing\u0026rdquo; instance variables of a Class\n Example of an \u0026ldquo;exposed\u0026rdquo; Class\n  // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } } // create a new instance of the \u0026#34;Car\u0026#34; class  // and store it in a const variable named \u0026#34;myCar\u0026#34;  const myCar = new Car(\u0026#34;toyota\u0026#34;, \u0026#34;prius\u0026#34;) // changing the \u0026#34;model\u0026#34; instance variable  // using \u0026#34;direct access\u0026#34;  myCar._model = \u0026#34;corolla\u0026#34;  The example above is not considered best practice because our instance variables are being accessed \u0026ldquo;outside\u0026rdquo; of the class; meaning our private data was accessed \u0026ldquo;publicly\u0026rdquo;\nHow do we make instance variables private?  Unfortunately, JavaScript does not have built in support for \u0026ldquo;private\u0026rdquo; data within object or class\n The most common way to communicate that an instance variable is private (best practice is to make ALL instance variables private) is to prefix the property with an underscore (_)\n This is a convention only and does not prevent someone from writing code to access a class\u0026rsquo;s private data publicly, the instance variables are still technically accessible outside of the class / object, developers will have to rely on our own discipline to do the right thing (until JavaScript implements proper support)\n The best practice is to provide \u0026ldquo;indirect\u0026rdquo; access to your class\u0026rsquo;s private dat through the use of methods (which we\u0026rsquo;ll cover next)\n  "
+},
+{
+	"uri": "/09-http-and-apis/apis/",
+	"title": "APIs",
+	"tags": [],
+	"description": "",
+	"content": " APIs  Overview   Finding APIs   Data Formats   API Keys   "
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-effects/toggle/",

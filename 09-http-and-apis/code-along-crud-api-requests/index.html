@@ -9,24 +9,24 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Asynchronous JS and Promises :: JavaScript</title>
+    <title>Code Along: CRUD API Requests :: JavaScript</title>
 
     
-    <link href="/css/nucleus.css?1573003813" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1573003813" rel="stylesheet">
-    <link href="/css/hybrid.css?1573003813" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1573003813" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1573003813" rel="stylesheet">
-    <link href="/css/auto-complete.css?1573003813" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1573003813" rel="stylesheet">
-    <link href="/css/theme.css?1573003813" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1573003813" rel="stylesheet">
-    <link href="/css/syntax.css?1573003813" rel="stylesheet">
+    <link href="/css/nucleus.css?1573003809" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1573003809" rel="stylesheet">
+    <link href="/css/hybrid.css?1573003809" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1573003809" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1573003809" rel="stylesheet">
+    <link href="/css/auto-complete.css?1573003809" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1573003809" rel="stylesheet">
+    <link href="/css/theme.css?1573003809" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1573003809" rel="stylesheet">
+    <link href="/css/syntax.css?1573003809" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1573003813" rel="stylesheet">
+      <link href="/css/theme-blue.css?1573003809" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1573003813"></script>
+    <script src="/js/jquery-3.3.1.min.js?1573003809"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/10-asynchronous-js-and-promises/">
+  <body class="" data-url="/09-http-and-apis/code-along-crud-api-requests/">
     <nav id="sidebar" class="">
 
 
@@ -89,14 +89,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1573003813"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1573003813"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1573003809"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1573003809"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1573003813"></script>
+<script type="text/javascript" src="/js/search.js?1573003809"></script>
 
     
   </div>
@@ -3478,7 +3478,7 @@
   
     
     <li data-nav-id="/09-http-and-apis/" title="HTTP and APIs" class="dd-item
-        
+        parent
         
         
         ">
@@ -3820,7 +3820,7 @@
  
   
     
-      <li data-nav-id="/09-http-and-apis/code-along-crud-api-requests/" title="Code Along: CRUD API Requests" class="dd-item ">
+      <li data-nav-id="/09-http-and-apis/code-along-crud-api-requests/" title="Code Along: CRUD API Requests" class="dd-item active">
         <a href="/09-http-and-apis/code-along-crud-api-requests/">
         Code Along: CRUD API Requests
         
@@ -4196,8 +4196,8 @@
   
     
     <li data-nav-id="/10-asynchronous-js-and-promises/" title="Asynchronous JS and Promises" class="dd-item
-        parent
-        active
+        
+        
         
         ">
       <a href="/10-asynchronous-js-and-promises/">
@@ -7214,6 +7214,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -7224,7 +7226,13 @@
             
           
           
-            <a href='/'>JSD</a> > Asynchronous JS and Promises
+            
+            
+          
+          
+            <a href='/'>JSD</a> > <a href='/09-http-and-apis/'>HTTP and APIs</a> > Code Along: CRUD API Requests
+          
+        
           
         
           
@@ -7233,6 +7241,27 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#code-along-crud-api-requests-with-colors-api">Code Along: CRUD API Requests with Colors API</a>
+<ul>
+<li><a href="#base-api-url">BASE API URL:</a></li>
+<li><a href="#api-endpoints">API Endpoints:</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
@@ -7240,31 +7269,71 @@
         
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              Code Along: CRUD API Requests
+            </h1>
           
 
         
 
 
 
-	
 
-<h3 id="lesson-10">Lesson 10</h3>
+<h3 id="code-along-crud-api-requests-with-colors-api">Code Along: CRUD API Requests with Colors API</h3>
 
-<h1 id="asynchronous-js-and-promises">Asynchronous JS and Promises</h1>
+<p>During this Code Along, we&rsquo;ll be using <a href="https://insomnia.rest/">Insomnia</a> to make API requests to a REST-based API</p>
 
+<h4 id="base-api-url">BASE API URL:</h4>
 
+<p><code>https://powerful-earth-34468.herokuapp.com/api/v1/</code></p>
 
+<h4 id="api-endpoints">API Endpoints:</h4>
+
+<table>
+<thead>
+<tr>
+<th align="left">Endpoint</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">GET <code>/colors</code></td>
+<td align="left">retrieve list of colors</td>
+</tr>
+
+<tr>
+<td align="left">GET <code>/colors/:id</code></td>
+<td align="left">retrieve details for one color</td>
+</tr>
+
+<tr>
+<td align="left">POST <code>/colors</code></td>
+<td align="left">create a new color</td>
+</tr>
+
+<tr>
+<td align="left">PUT <code>/colors/:id</code></td>
+<td align="left">update an existing color</td>
+</tr>
+
+<tr>
+<td align="left">DELETE <code>/colors/:id</code></td>
+<td align="left">delete an existing color</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
+
         
         </div> 
         
@@ -21281,6 +21350,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -21295,6 +21365,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -22732,6 +22805,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -22746,6 +22820,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -25158,7 +25235,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -25174,9 +25250,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -33745,10 +33818,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/09-http-and-apis/ajax/ajax-request-jquery/" title="AJAX Requests with jQuery"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/09-http-and-apis/http/http-response/status-codes/" title="Status Codes"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/10-asynchronous-js-and-promises/objectives/" title="Objectives" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/09-http-and-apis/http/" title="HTTP" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -33758,20 +33831,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1573003814"></script>
-    <script src="/js/perfect-scrollbar.min.js?1573003814"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1573003814"></script>
-    <script src="/js/jquery.sticky.js?1573003814"></script>
-    <script src="/js/featherlight.min.js?1573003814"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1573003814"></script>
-    <script src="/js/highlight.pack.js?1573003814"></script>
+    <script src="/js/clipboard.min.js?1573003809"></script>
+    <script src="/js/perfect-scrollbar.min.js?1573003809"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1573003809"></script>
+    <script src="/js/jquery.sticky.js?1573003809"></script>
+    <script src="/js/featherlight.min.js?1573003809"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1573003809"></script>
+    <script src="/js/highlight.pack.js?1573003809"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1573003814"></script>
-    <script src="/js/learn.js?1573003814"></script>
-    <script src="/js/hugo-learn.js?1573003814"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1573003809"></script>
+    <script src="/js/learn.js?1573003809"></script>
+    <script src="/js/hugo-learn.js?1573003809"></script>
 
-    <link href="/mermaid/mermaid.css?1573003814" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1573003814"></script>
+    <link href="/mermaid/mermaid.css?1573003809" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1573003809"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
@@ -33779,3 +33852,4 @@
 
   </body>
 </html>
+

@@ -476,11 +476,15 @@
   </url>
   
   <url>
-    <loc>/09-http-and-apis/apis/</loc>
+    <loc>/09-http-and-apis/code-along-crud-api-requests/</loc>
   </url>
   
   <url>
     <loc>/13-object-oriented-js/classes/encapsulation/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/apis/</loc>
   </url>
   
   <url>

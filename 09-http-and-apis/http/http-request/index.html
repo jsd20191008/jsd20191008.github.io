@@ -12,21 +12,21 @@
     <title>HTTP Requests :: JavaScript</title>
 
     
-    <link href="/css/nucleus.css?1572798895" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1572798895" rel="stylesheet">
-    <link href="/css/hybrid.css?1572798895" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1572798895" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1572798895" rel="stylesheet">
-    <link href="/css/auto-complete.css?1572798895" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1572798895" rel="stylesheet">
-    <link href="/css/theme.css?1572798895" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1572798895" rel="stylesheet">
-    <link href="/css/syntax.css?1572798895" rel="stylesheet">
+    <link href="/css/nucleus.css?1573003806" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1573003806" rel="stylesheet">
+    <link href="/css/hybrid.css?1573003806" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1573003806" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1573003806" rel="stylesheet">
+    <link href="/css/auto-complete.css?1573003806" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1573003806" rel="stylesheet">
+    <link href="/css/theme.css?1573003806" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1573003806" rel="stylesheet">
+    <link href="/css/syntax.css?1573003806" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1572798895" rel="stylesheet">
+      <link href="/css/theme-blue.css?1573003806" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1572798895"></script>
+    <script src="/js/jquery-3.3.1.min.js?1573003806"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -89,14 +89,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1572798895"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1572798895"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1573003806"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1573003806"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1572798895"></script>
+<script type="text/javascript" src="/js/search.js?1573003806"></script>
 
     
   </div>
@@ -3820,6 +3820,25 @@
  
   
     
+      <li data-nav-id="/09-http-and-apis/code-along-crud-api-requests/" title="Code Along: CRUD API Requests" class="dd-item ">
+        <a href="/09-http-and-apis/code-along-crud-api-requests/">
+        Code Along: CRUD API Requests
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
     <li data-nav-id="/09-http-and-apis/apis/" title="APIs" class="dd-item
         
         
@@ -7237,8 +7256,6 @@
 <li>
 <ul>
 <li><a href="#http-requests">HTTP Requests</a></li>
-<li><a href="#request-line">Request Line</a></li>
-<li><a href="#example-request-line">Example Request Line</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -7288,52 +7305,40 @@
 </ul></li>
 </ul>
 
-<hr />
+<!-- ---
 
-<h3 id="request-line">Request Line</h3>
+### Request Line
 
-<ul>
-<li>The request line is the first line in the request message. It consists of at least three items:</li>
-</ul>
+* The request line is the first line in the request message. It consists of at least three items:
 
-<ol>
-<li><p>A HTTP method</p>
+1. A HTTP method
 
-<ul>
-<li>The method is a one-word command that tells the server what it should do with the resource. For example, the server could be asked to send the resource to the client.</li>
-</ul></li>
+  * The method is a one-word command that tells the server what it should do with the resource. For example, the server could be asked to send the resource to the client.
 
-<li><p>The path component of the URL for the request:</p>
+2. The path component of the URL for the request:
 
-<ul>
-<li>The path identifies the resource on the server.</li>
-</ul></li>
+  * The path identifies the resource on the server.
 
-<li><p>The HTTP version number:</p>
+3. The HTTP version number:
 
-<ul>
-<li>The HTTP specification to which the client has tried to make the message comply (current version is <strong>1.1</strong> but you don&rsquo;t have to worry about this)</li>
-</ul></li>
-</ol>
+  * The HTTP specification to which the client has tried to make the message comply (current version is **1.1** but you don't have to worry about this)
 
-<hr />
+---
 
-<h3 id="example-request-line">Example Request Line</h3>
+### Example Request Line
 
-<p><code>GET /path/to/resource/index.html HTTP/1.1</code></p>
+`GET /path/to/resource/index.html HTTP/1.1`
 
-<ul>
-<li><p>the method is GET</p></li>
+  * the method is GET
 
-<li><p>the path is <code>/path/to/resource/index.html</code></p></li>
+  * the path is `/path/to/resource/index.html`
 
-<li><p>the HTTP version is HTTP/1.1</p></li>
-</ul>
+  * the HTTP version is HTTP/1.1
 
 
 <div class="notices note" ><p>The HTTP Client (e.g. web browser) is responsible for constructing this request line; as developers we just need to know how this works</p>
 </div>
-
+ -->
 
 
 
@@ -22855,6 +22860,572 @@
 
                     
                     
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
                     
 
                     
@@ -33354,20 +33925,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1572798895"></script>
-    <script src="/js/perfect-scrollbar.min.js?1572798895"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1572798895"></script>
-    <script src="/js/jquery.sticky.js?1572798895"></script>
-    <script src="/js/featherlight.min.js?1572798895"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1572798895"></script>
-    <script src="/js/highlight.pack.js?1572798895"></script>
+    <script src="/js/clipboard.min.js?1573003806"></script>
+    <script src="/js/perfect-scrollbar.min.js?1573003806"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1573003806"></script>
+    <script src="/js/jquery.sticky.js?1573003806"></script>
+    <script src="/js/featherlight.min.js?1573003806"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1573003806"></script>
+    <script src="/js/highlight.pack.js?1573003806"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1572798895"></script>
-    <script src="/js/learn.js?1572798895"></script>
-    <script src="/js/hugo-learn.js?1572798895"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1573003806"></script>
+    <script src="/js/learn.js?1573003806"></script>
+    <script src="/js/hugo-learn.js?1573003806"></script>
 
-    <link href="/mermaid/mermaid.css?1572798895" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1572798895"></script>
+    <link href="/mermaid/mermaid.css?1573003806" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1573003806"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
