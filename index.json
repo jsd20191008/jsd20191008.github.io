@@ -830,7 +830,7 @@
 	"title": "Code Along: CRUD API Requests",
 	"tags": [],
 	"description": "",
-	"content": " Code Along: CRUD API Requests with Colors API During this Code Along, we\u0026rsquo;ll be using Insomnia to make API requests to a REST-based API\nBASE API URL: https://powerful-earth-34468.herokuapp.com/api/v1/\nAPI Endpoints:    Endpoint Description     GET /colors retrieve list of colors   GET /colors/:id retrieve details for one color   POST /colors create a new color   PUT /colors/:id update an existing color   DELETE /colors/:id delete an existing color    "
+	"content": " Code Along: CRUD API Requests with Colors API During this Code Along, we\u0026rsquo;ll be using Insomnia to make API requests to a REST-based API\nBASE API URL: https://css-colors-api.herokuapp.com/api/v1\nAPI Endpoints:    Endpoint Description     GET /colors retrieve list of colors   GET /colors/:id retrieve details for one color   POST /colors create a new color   PUT /colors/:id update an existing color   DELETE /colors/:id delete an existing color    "
 },
 {
 	"uri": "/13-object-oriented-js/classes/encapsulation/",
