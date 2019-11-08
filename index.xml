@@ -339,6 +339,19 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     </item>
     
     <item>
+      <title>Lab: Final Projects</title>
+      <link>/19-final-projects-lab/lab-final-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/19-final-projects-lab/lab-final-projects/</guid>
+      <description> Work on your finalizing your projects
+ Ensure your project is deployed &amp;amp; hosted using either Github Pages or Heroku
+ At this point you should only be adding finishing touches (fine tuning CSS, fixing indentation, etc)
+ You should avoid adding new features at this point
+  </description>
+    </item>
+    
+    <item>
       <title>Objectives</title>
       <link>/09-http-and-apis/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -366,15 +379,6 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Objectives</title>
-      <link>/11-lab-giphy-weather-app/objectives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/11-lab-giphy-weather-app/objectives/</guid>
-      <description> Leverage knowledge of Promises to build an application that makes asynchronous requests to multiple APIs  </description>
-    </item>
-    
-    <item>
-      <title>Objectives</title>
       <link>/12-project-build-a-slackbot/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -384,11 +388,13 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Objectives</title>
-      <link>/13-object-oriented-js/objectives/</link>
+      <link>/13-object-oriented-programming/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-js/objectives/</guid>
-      <description> Understand the benefits of using Classes
+      <guid>/13-object-oriented-programming/objectives/</guid>
+      <description> Learn how OOP concepts can be applied using JavaScript
+ Understand the benefit of OOP
+ Understand the benefits of using Classes
  Create Classes with a public and private interface
  Create Classes that inherit properties and methods from another Class
   </description>
@@ -396,10 +402,10 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Objectives</title>
-      <link>/14-intro-to-crud-and-firebase/objectives/</link>
+      <link>/15-intro-to-crud-and-firebase/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/14-intro-to-crud-and-firebase/objectives/</guid>
+      <guid>/15-intro-to-crud-and-firebase/objectives/</guid>
       <description> Explain what CRUD means
  Learn about Firebase and its benefits
  Use Firebase&amp;rsquo;s real-time database to provide data persistence to a front-end app
@@ -408,32 +414,19 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Objectives</title>
-      <link>/15-project-firebase-todo-app/objectives/</link>
+      <link>/16-lab-firebase-todo-app/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/15-project-firebase-todo-app/objectives/</guid>
+      <guid>/16-lab-firebase-todo-app/objectives/</guid>
       <description> Leverage knowledge of Firebase to add persistent data storage to a Todo Application  </description>
     </item>
     
     <item>
       <title>Objectives</title>
-      <link>/16-intro-to-express/objectives/</link>
+      <link>/18-deploying-your-app/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/16-intro-to-express/objectives/</guid>
-      <description> Review the HTTP request / response flow
- Explain the role of a web server in a full-stack application
- Write a route handler for a GET request with Express
- Pass information with query and route parameters
-  </description>
-    </item>
-    
-    <item>
-      <title>Objectives</title>
-      <link>/17-deploying-your-app/objectives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/17-deploying-your-app/objectives/</guid>
+      <guid>/18-deploying-your-app/objectives/</guid>
       <description> Deploy a JavaScript-based application using Github Pages, Surge or Heroku
  Learn how to secure sensitive credentials in a &amp;ldquo;non node-based&amp;rdquo; front-end application
  Deploy your final projects the approach that best fits your application&amp;rsquo;s needs
@@ -467,10 +460,10 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Overview</title>
-      <link>/13-object-oriented-js/classes/methods/overview/</link>
+      <link>/13-object-oriented-programming/classes/methods/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-js/classes/methods/overview/</guid>
+      <guid>/13-object-oriented-programming/classes/methods/overview/</guid>
       <description>Methods  Methods in a Class function very similar to a method of an regular JavasScript object
  Let&amp;rsquo;s recap, an method in an object is a property that has a function as a value, for example:
   const superHero = { secretIdentity: &amp;#39;Peter Parker&amp;#39;, name: &amp;#39;Spiderman&amp;#39;, sayTagline: function() { // &amp;lt;- method  console.log(&amp;#34;Hey everyone it&amp;#39;s your friendly neighborhood Spiderman&amp;#34;) } }   If we were to rewrite this object as a Class, it may look something like this:  class superHero { constructor(secretIdentity, name) { this.</description>
@@ -478,10 +471,10 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Overview</title>
-      <link>/13-object-oriented-js/classes/overview/</link>
+      <link>/13-object-oriented-programming/classes/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-js/classes/overview/</guid>
+      <guid>/13-object-oriented-programming/classes/overview/</guid>
       <description>What are Classes?  As we have discussed earlier in the course, in JavaScript, objects are oftentimes used to represent (or model) real world items
  Here&amp;rsquo;s an example of using an object to represent a car:
   const myCar = { make: &amp;#39;Honda&amp;#39;, model: &amp;#39;Accord&amp;#39;, color: &amp;#39;blue&amp;#39;, year: 2015 } console.log(myHonda.make) console.log(myHonda.model) console.log(myHonda.color) // change color  myHonda.color = `blue` console.log(myHonda.color)   In practice, we often need to create many objects of the same kind, like cars, or users or whatever</description>
@@ -489,10 +482,10 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Overview</title>
-      <link>/13-object-oriented-js/inheritance/overview/</link>
+      <link>/13-object-oriented-programming/inheritance/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-js/inheritance/overview/</guid>
+      <guid>/13-object-oriented-programming/inheritance/overview/</guid>
       <description>What is Inheritance?  Often we find commonality between our classes — repeated code that we’d like to consolidate
  Subclasses let us incorporate another class’s state and behavior into our own
  This process is often called inheritance, and our subclass is said to “inherit” from a parent class, also called a superclass
@@ -501,10 +494,10 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Overview</title>
-      <link>/14-intro-to-crud-and-firebase/firebase/overview/</link>
+      <link>/15-intro-to-crud-and-firebase/firebase/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/14-intro-to-crud-and-firebase/firebase/overview/</guid>
+      <guid>/15-intro-to-crud-and-firebase/firebase/overview/</guid>
       <description> What is Firebase?  Firebase is a mobile and web application platform for developers
  Acquired by Google in 2014
  Offers many other services but we&amp;rsquo;ll be covering the basics of Firebase&amp;rsquo;s real-time backend database and seeing how we can use this in our applications
@@ -512,15 +505,16 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     </item>
     
     <item>
-      <title>Overview</title>
-      <link>/16-intro-to-express/express/overview/</link>
+      <title>Overview &amp; Requirements</title>
+      <link>/final-projects/overview-requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/16-intro-to-express/express/overview/</guid>
-      <description> What is Express?  Express is a popular Node web framework that enables developers to build web servers (backend) that can respond to http requests and return data
- Outside of providing built-in support for routing, Express has minimal functionality of its own
- Functionality is added to an Express application through the use of Middleware
-  </description>
+      <guid>/final-projects/overview-requirements/</guid>
+      <description>Overview  Final Projects are a requirement of &amp;ldquo;course completion&amp;rdquo;
+ Project should be something that you are passionate about
+ We&amp;rsquo;ve established some milestones (and due dates) that will help you stay on track to complete your projects on time
+ Each milestone will include a deliverable  Instruction team will actively work with you to help you manage scope and come up with a project plan
+  Requirements For the final project, you&amp;rsquo;ll be designing and building a web application of your choice.</description>
     </item>
     
     <item>
@@ -560,10 +554,10 @@ Create a new workspace</description>
     
     <item>
       <title>Step 1: Install Heroku</title>
-      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</link>
+      <link>/18-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</guid>
+      <guid>/18-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</guid>
       <description> Step 1: Install Heroku a. Sign up for a free Heroku account  Sign up here: https://signup.heroku.com/signup/dc  
 b. Install Heroku Command Line Interface (CLI)  Follow the instructions for your Operation System found here: https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true#set-up  
 c. Use the Heroku CLI to log into your Heroku Account  Once installed, open your terminal and run the command below to log into the Heroku CLI
@@ -791,10 +785,10 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
     
     <item>
       <title>Benefits</title>
-      <link>/14-intro-to-crud-and-firebase/firebase/benefits/</link>
+      <link>/15-intro-to-crud-and-firebase/firebase/benefits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/14-intro-to-crud-and-firebase/firebase/benefits/</guid>
+      <guid>/15-intro-to-crud-and-firebase/firebase/benefits/</guid>
       <description> Firebase Benefits  Firebase provides a seamless way for front-end developers to add data persistence to their front-end applications
  Relieves developers from having to build out backend to support their apps
  Firebase platform offers a variety of products such as realtime database, authentication, file storage, analytics, hosting, etc
@@ -832,22 +826,6 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
     </item>
     
     <item>
-      <title>Clients &amp; Servers</title>
-      <link>/16-intro-to-express/clients-servers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/16-intro-to-express/clients-servers/</guid>
-      <description>Client &amp;amp; Servers  Computers connected to the web are called clients and servers
- Communication between the client and server are done through requests and responses
- A simplified diagram of how they interact might look like this:
-  Clients  Typically user-facing devices connected to the internet:
- Computers
- Mobile devices
- Smart Speakers (Amazon Echo, Google Home)
- Smart Appliances (Ring Doorbell, Nest Thermostat, etc)</description>
-    </item>
-    
-    <item>
       <title>Commit</title>
       <link>/command-line-js-and-git/git-vocabulary/commit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -862,10 +840,10 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
     
     <item>
       <title>Constructor</title>
-      <link>/13-object-oriented-js/classes/constructor/</link>
+      <link>/13-object-oriented-programming/classes/constructor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-js/classes/constructor/</guid>
+      <guid>/13-object-oriented-programming/classes/constructor/</guid>
       <description>Constructor  JavaScript calls the constructor() method every time it creates a new instance of a class (using the new keyword)  // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } }   Car is the name of our class; by convention, we capitalize and CamelCase class names
  JavaScript will invoke the constructor() method every time we create a new instance of our Car class</description>
     </item>
@@ -895,10 +873,10 @@ const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new P
     
     <item>
       <title>CRUD</title>
-      <link>/14-intro-to-crud-and-firebase/crud/</link>
+      <link>/15-intro-to-crud-and-firebase/crud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/14-intro-to-crud-and-firebase/crud/</guid>
+      <guid>/15-intro-to-crud-and-firebase/crud/</guid>
       <description> What is CRUD  Stands for Create, Read, Update and Delete
  CRUD paradigm is common in constructing data-backed software applications
  Helps developers plan how their application&amp;rsquo;s data should be structured
@@ -967,10 +945,10 @@ const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new P
     
     <item>
       <title>Getters &amp; Setters</title>
-      <link>/13-object-oriented-js/classes/methods/getters-and-setters/</link>
+      <link>/13-object-oriented-programming/classes/methods/getters-and-setters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-js/classes/methods/getters-and-setters/</guid>
+      <guid>/13-object-oriented-programming/classes/methods/getters-and-setters/</guid>
       <description>Getters &amp;amp; Setters  Getters and Setters allow developers to write methods that enable reading (get) and the writing (set) of properties of the instances (objects)
  Getters and setters is a common pattern used in object oriented programming; ES6 classes introduced a new syntax for getters and setters on object properties
   class Car { constructor(make, model) { this._make = make this._model = model } get make() { return this.</description>
@@ -978,10 +956,10 @@ const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new P
     
     <item>
       <title>Github Pages</title>
-      <link>/17-deploying-your-app/github-pages/</link>
+      <link>/18-deploying-your-app/github-pages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/17-deploying-your-app/github-pages/</guid>
+      <guid>/18-deploying-your-app/github-pages/</guid>
       <description> What is Github Pages?  GitHub Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository
  GitHub Pages is a static site hosting service and doesn&amp;rsquo;t support server-side code such as, Express (via Node JS), Ruby, Python or PHP
   </description>
@@ -1019,22 +997,10 @@ Complete Homework #1 - Functions  You are tasked with completing the problem set
     
     <item>
       <title>Instructions</title>
-      <link>/11-lab-giphy-weather-app/instructions/</link>
+      <link>/16-lab-firebase-todo-app/instructions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/11-lab-giphy-weather-app/instructions/</guid>
-      <description>Overview You are tasked with building an application that leverages different APIs to provide a city’s weather in a fun way
-Instructions 1) Download starter code
- The starter code for this code along is hosted on Github, see the url below:
- Lab: Giphy Weather App   2) Get API keys for OpenWeather and Giphy (if you haven’t done so already)</description>
-    </item>
-    
-    <item>
-      <title>Instructions</title>
-      <link>/15-project-firebase-todo-app/instructions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/15-project-firebase-todo-app/instructions/</guid>
+      <guid>/16-lab-firebase-todo-app/instructions/</guid>
       <description>Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase&amp;rsquo;s Realtime Database product
 Instructions 1) Download starter code
  The starter code for this code along is hosted on Github, see the url below:
@@ -1075,21 +1041,6 @@ Instructions 1) Download starter code
       <description>Mac OS X Installation Instructions 1) Open your terminal application  Open your terminal (Applications &amp;gt; Utilities &amp;gt; Terminal)
  All of the following commands (below) that start with $ should be copied and pasted in your terminal / command prompt (also referred to as the &amp;ldquo;command line&amp;rdquo;)
  DO NOT include the &amp;lsquo;$&amp;rsquo; when copying and pasting the commands below; &amp;lsquo;$&amp;rsquo; is a universal symbol for the terminal / command line</description>
-    </item>
-    
-    <item>
-      <title>Middleware</title>
-      <link>/16-intro-to-express/express/middleware/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/16-intro-to-express/express/middleware/</guid>
-      <description>Middleware  Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle
- Middleware functions can perform the following tasks:
- Execute any code.
- Make changes to the request and the response objects.
- End the request-response cycle.
- Call the next middleware function in the stack
-  An Express application is essentially a series of middleware function calls</description>
     </item>
     
     <item>
@@ -1165,10 +1116,10 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
     
     <item>
       <title>Step 2: Prepare the App</title>
-      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</link>
+      <link>/18-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</guid>
+      <guid>/18-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</guid>
       <description>Prepare the App During this step we are going to get the application ready for a Heroku deployment
 a. Install parcel-bundler locally Since this application used Parcel, we need to instruct Heroku&amp;rsquo;s servers to install Parcel before it tries to &amp;ldquo;build&amp;rdquo; the application in the cloud
  In your terminal, navigate to the project folder and run the following command:
@@ -1177,10 +1128,10 @@ $ npm install parcel-bundler   Do not include the -g or --global flag here</desc
     
     <item>
       <title>Super &amp; Extends</title>
-      <link>/13-object-oriented-js/inheritance/super-and-extends/</link>
+      <link>/13-object-oriented-programming/inheritance/super-and-extends/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-js/inheritance/super-and-extends/</guid>
+      <guid>/13-object-oriented-programming/inheritance/super-and-extends/</guid>
       <description>Super &amp;amp; Extends  super keyword is used to access and call functions on an object&amp;rsquo;s parent
  The extends keyword is used in a Class to create a class which is a child of another class
  super and extends are used together to create parent-child relationships between Classes
@@ -1221,10 +1172,10 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     
     <item>
       <title>Encapsulation</title>
-      <link>/13-object-oriented-js/classes/encapsulation/</link>
+      <link>/13-object-oriented-programming/classes/encapsulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-js/classes/encapsulation/</guid>
+      <guid>/13-object-oriented-programming/classes/encapsulation/</guid>
       <description>What is Encapsulation?  A core concept in OOP
  Refers to enclosing all the functionality of an object within that object so that the object’s internal workings (its methods and properties) are hidden from the rest of the application
  This allows us to only we only expose data and functionality that is needed to accomplish such a task and nothing else; this makes your code less prone to errors</description>
@@ -1299,10 +1250,10 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     
     <item>
       <title>Code Along: Hosting with Github Pages</title>
-      <link>/17-deploying-your-app/code-along-hosting-with-github-pages/</link>
+      <link>/18-deploying-your-app/code-along-hosting-with-github-pages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/17-deploying-your-app/code-along-hosting-with-github-pages/</guid>
+      <guid>/18-deploying-your-app/code-along-hosting-with-github-pages/</guid>
       <description>Code Along: Hosting with Github Pages  Together we&amp;rsquo;ll walk through the process of hosting a static application, an application that does not have a server (i.e. Express), on Github Pages  Instructions 1. Find Traffic Light project Using your operating system&amp;rsquo;s finder / explorer application, copy your Traffic Light application (project name: traffic-light) application from a lesson earlier in the course folder to your lesson_17 folder
  If you do not have a working version of traffic-light you can clone down a working version here</description>
     </item>
@@ -1333,28 +1284,28 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     
     <item>
       <title>General Methods</title>
-      <link>/13-object-oriented-js/classes/methods/general-methods/</link>
+      <link>/13-object-oriented-programming/classes/methods/general-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-js/classes/methods/general-methods/</guid>
+      <guid>/13-object-oriented-programming/classes/methods/general-methods/</guid>
       <description>General Methods  You can specify &amp;ldquo;regular&amp;rdquo; methods that allow you do things other than simply getting and setting the property values  Example class Car { constructor(make, model) { this._make = make this._model = model this._miles = 30 } get make() { return this._make } get model() { return this._model } get miles() { return this._miles } set model(newModel) { this._model = newModel } drive(newMiles) { console.log(`driving ${newMiles}miles`) this.</description>
     </item>
     
     <item>
       <title>Instances</title>
-      <link>/13-object-oriented-js/classes/instances/</link>
+      <link>/13-object-oriented-programming/classes/instances/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-js/classes/instances/</guid>
+      <guid>/13-object-oriented-programming/classes/instances/</guid>
       <description>Instances  An instance is an object that contains the property names and methods of a class, but with unique property values (i.e. instances of a Class have their own unique identities)  Example - Creating Instances // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } } // create a new instance of the Car class  // and store it in a variable named myTesla  const myTesla = new Car(&amp;#34;Tesla&amp;#34;, &amp;#34;Model 3&amp;#34;) console.</description>
     </item>
     
     <item>
       <title>NoSQL Databases</title>
-      <link>/14-intro-to-crud-and-firebase/firebase/nosql-databases/</link>
+      <link>/15-intro-to-crud-and-firebase/firebase/nosql-databases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/14-intro-to-crud-and-firebase/firebase/nosql-databases/</guid>
+      <guid>/15-intro-to-crud-and-firebase/firebase/nosql-databases/</guid>
       <description>What is a NoSQL Database  Firebase uses a NoSQL for it&amp;rsquo;s cloud-based databases
  Like many NoSQL databases, Firebase&amp;rsquo;s Real-time database stores data as JSON objects
  NoSQL databases don&amp;rsquo;t enforce strict data structure which results in much more flexibility than traditional SQL databases
@@ -1395,44 +1346,20 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     
     <item>
       <title>Requirements</title>
-      <link>/11-lab-giphy-weather-app/requirements/</link>
+      <link>/16-lab-firebase-todo-app/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/11-lab-giphy-weather-app/requirements/</guid>
-      <description>Requirements Requirement #1: App UI: The user interface should contain a single form input and a submit button (the starter code already provides the UI)
-Requirement #2: Make Multiple API Requests When users enter a city name into the input field and press submit the following should happen:
- API Request #1 - Fetch City’s Current Weather
-Your app should make an API request to OpenWeather and fetch the current weather associated with the city name entered into the form</description>
-    </item>
-    
-    <item>
-      <title>Requirements</title>
-      <link>/15-project-firebase-todo-app/requirements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/15-project-firebase-todo-app/requirements/</guid>
+      <guid>/16-lab-firebase-todo-app/requirements/</guid>
       <description>Requirements Requirement #1: Add Create Functionality When users attempt to add a new task using the #addItem form, the task should be successfully saved in the app&amp;rsquo;s Firebase database. Within your Firebase database, the name of the new task should be stored as name and the completed value of every newly created task should be set to false
 Requirement #2: Add Read Functionality The Doit app should list all tasks stored in your Firebase database within the #taskList div.</description>
     </item>
     
     <item>
-      <title>Routing</title>
-      <link>/16-intro-to-express/express/routing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/16-intro-to-express/express/routing/</guid>
-      <description>Routing  Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on)
- Each route can have one or more handler functions, which are executed when the route is matched
- Route definition takes the following structure:
-app.METHOD(PATH, HANDLER)   app is an instance of express.</description>
-    </item>
-    
-    <item>
       <title>Step 3: Run Heroku Locally</title>
-      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</link>
+      <link>/18-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</guid>
+      <guid>/18-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</guid>
       <description>Step 3: Run Heroku Locally Heroku&amp;rsquo;s CLI has a feature that allows us to run application locally in a &amp;ldquo;heroku production-like&amp;rdquo; environment
 This is a great way to catch issues before deploying the production
 a. Copy .env.local to .env When running heroku locally it, heroku will automatically look for the .env (and not .env.local) for any potential environment variables
@@ -1599,22 +1526,11 @@ superHero[&#39;secret identity&#39;]`
     </item>
     
     <item>
-      <title>Code Along: Express TMDB App</title>
-      <link>/16-intro-to-express/code-along-express-tmdb-app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/16-intro-to-express/code-along-express-tmdb-app/</guid>
-      <description>Code Along: Express TMDB App  Together we&amp;rsquo;ll walk through creating a full stack (backend &amp;amp; front-end) application that provides movie and tv show data using the TMDb API  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
- Code Along: Express TMDb App
- Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
-    </item>
-    
-    <item>
       <title>Code Along: Firebase Playlist App</title>
-      <link>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</link>
+      <link>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</guid>
+      <guid>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</guid>
       <description>Code Along: Firebase Playlist App  Together we&amp;rsquo;ll walk through creating a playlist application that has its data persisted in Firebase&amp;rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
  Code Along: Firebase Playlist App (Updated)
  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
@@ -1796,19 +1712,6 @@ Atom Editor v1.</description>
     </item>
     
     <item>
-      <title>Route Parameters</title>
-      <link>/16-intro-to-express/express/route-parameters/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/16-intro-to-express/express/route-parameters/</guid>
-      <description>Route Parameters  Route parameters are named URL segments that are used to capture the values specified at their position in the URL
- The captured values are populated in the req.params object, with the name of the route parameter specified in the path as their respective keys
- Route parameters are similar to function parameters
- Given the following route handler:
-app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(req.params) })   If the client makes a request to the following url: GET http://localhost:3000/users/34/books/8989</description>
-    </item>
-    
-    <item>
       <title>Simulating Async Operations</title>
       <link>/10-asynchronous-js-and-promises/simulating-async-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1823,10 +1726,10 @@ app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(r
     
     <item>
       <title>Static Methods</title>
-      <link>/13-object-oriented-js/classes/methods/static-methods/</link>
+      <link>/13-object-oriented-programming/classes/methods/static-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-js/classes/methods/static-methods/</guid>
+      <guid>/13-object-oriented-programming/classes/methods/static-methods/</guid>
       <description>Static Methods  Static method calls are made directly on the class and are not callable on instances of the class
  Static methods are prepended with the static keyword
   class Car { constructor(make, model, price) { this._make = make this._model = model this._price = price } // instance methods  get price() { return this._price } drive() { console.log(&amp;#39;calling &amp;#34;this&amp;#34; in an instance method&amp;#39;, this) console.log(`driving ${this.</description>
@@ -1834,10 +1737,10 @@ app.get(&#39;/users/:userId/books/:bookId&#39;, function (req, res) { res.send(r
     
     <item>
       <title>Step 4: Deploy to Heroku</title>
-      <link>/17-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</link>
+      <link>/18-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/17-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</guid>
+      <guid>/18-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</guid>
       <description>Step 4: Deploy to Heroku Now it&amp;rsquo;s time to deploy our application to production (i.e. Heroku&amp;rsquo;s cloud servers)
 a. Create a &amp;ldquo;Heroku app&amp;rdquo;  In your terminal (from within your project folder) run the following command to create a Heroku app
 $ heroku create  This will result in output that looks like the following:
@@ -1858,10 +1761,10 @@ $ heroku create  This will result in output that looks like the following:
     
     <item>
       <title>Surge</title>
-      <link>/17-deploying-your-app/surge/</link>
+      <link>/18-deploying-your-app/surge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/17-deploying-your-app/surge/</guid>
+      <guid>/18-deploying-your-app/surge/</guid>
       <description> What is Surge?  An alternative to Github pages
  Best used for Static websites
  Simple to deploy
@@ -1926,10 +1829,10 @@ $ heroku create  This will result in output that looks like the following:
     
     <item>
       <title>Code Along: Hosting with Surge</title>
-      <link>/17-deploying-your-app/code-along-hosting-with-surge/</link>
+      <link>/18-deploying-your-app/code-along-hosting-with-surge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/17-deploying-your-app/code-along-hosting-with-surge/</guid>
+      <guid>/18-deploying-your-app/code-along-hosting-with-surge/</guid>
       <description>Code Along: Hosting with Surge  Together we&amp;rsquo;ll walk through the process of hosting a static website / application (that does not have a backend server like Express) using Surge  Instructions 1. Install the surge package on your computer  Run the following from your command line (from any folder location) to install surge globally on your computer
 $ npm install --global surge   
 2. Run surge from the Traffic Light project folder  On the command line, navigate to the project folder of the Traffic Light app (the one we used in the Github Pages code along)</description>
@@ -2273,10 +2176,10 @@ Complete Homework #3 - Rock, Paper, Scissors Application  You are tasked with fi
     
     <item>
       <title>Securing Sensitive Credentials with Parcel</title>
-      <link>/17-deploying-your-app/securing-sensitive-credentials-with-parcel/</link>
+      <link>/18-deploying-your-app/securing-sensitive-credentials-with-parcel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/17-deploying-your-app/securing-sensitive-credentials-with-parcel/</guid>
+      <guid>/18-deploying-your-app/securing-sensitive-credentials-with-parcel/</guid>
       <description>Securing Sensitive Credentials with Parcel  Often times when using an API in our applications, those API providers require that we send an API Key with our API requests
  Those API keys should be considered sensitive credentials and the best practice is to use Environment Variables to prevent those sensitive credentials from being exposed
  However, the use of Environment Variables have traditionally only been available to applications that have a backend server (i.</description>
@@ -2351,10 +2254,10 @@ $ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd 
     
     <item>
       <title>Code Along: Using Environment Variables with Parcel</title>
-      <link>/17-deploying-your-app/code-along-using-env-variables-with-parcel/</link>
+      <link>/18-deploying-your-app/code-along-using-env-variables-with-parcel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/17-deploying-your-app/code-along-using-env-variables-with-parcel/</guid>
+      <guid>/18-deploying-your-app/code-along-using-env-variables-with-parcel/</guid>
       <description>Code Along: Using Environment Variables with Parcel  Together we&amp;rsquo;ll walk through the process of using Parcel to bundle a static application that needs to secure sensitive credentials  Instructions 1. Access your Giphy API project from a class session earlier in the course  Using your operating system&amp;rsquo;s finder / explorer application, copy your Giphy Search API application (project name: giphy-search-api) application an earlier lesson to your lesson_17 folder</description>
     </item>
     
@@ -2560,10 +2463,10 @@ const getArea = (width, height) =&amp;gt; { const area = width * height return a
     
     <item>
       <title>Heroku</title>
-      <link>/17-deploying-your-app/heroku/</link>
+      <link>/18-deploying-your-app/heroku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/17-deploying-your-app/heroku/</guid>
+      <guid>/18-deploying-your-app/heroku/</guid>
       <description>What is Heroku?  Heroku is a PaaS (Platform as a Service) that enables developers to easily host (deploy), monitor and scale their applications
  Supports many different languages (Node.js (JavaScript), Ruby, Python, Jav, PHP, etc) and supports virtually any type of application (from static websites to server-backed applications connected to a database)
  Heroku&amp;rsquo;s focus is to take the pain of deploying applications and maintaining environment (server updates &amp;amp; scalability, database backups, etc) so developers can focus solely on building their applications</description>

@@ -119,6 +119,10 @@
   </url>
   
   <url>
+    <loc>/19-final-projects-lab/lab-final-projects/</loc>
+  </url>
+  
+  <url>
     <loc>/09-http-and-apis/objectives/</loc>
   </url>
   
@@ -127,31 +131,23 @@
   </url>
   
   <url>
-    <loc>/11-lab-giphy-weather-app/objectives/</loc>
-  </url>
-  
-  <url>
     <loc>/12-project-build-a-slackbot/objectives/</loc>
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/objectives/</loc>
+    <loc>/13-object-oriented-programming/objectives/</loc>
   </url>
   
   <url>
-    <loc>/14-intro-to-crud-and-firebase/objectives/</loc>
+    <loc>/15-intro-to-crud-and-firebase/objectives/</loc>
   </url>
   
   <url>
-    <loc>/15-project-firebase-todo-app/objectives/</loc>
+    <loc>/16-lab-firebase-todo-app/objectives/</loc>
   </url>
   
   <url>
-    <loc>/16-intro-to-express/objectives/</loc>
-  </url>
-  
-  <url>
-    <loc>/17-deploying-your-app/objectives/</loc>
+    <loc>/18-deploying-your-app/objectives/</loc>
   </url>
   
   <url>
@@ -163,23 +159,23 @@
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/classes/methods/overview/</loc>
+    <loc>/13-object-oriented-programming/classes/methods/overview/</loc>
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/classes/overview/</loc>
+    <loc>/13-object-oriented-programming/classes/overview/</loc>
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/inheritance/overview/</loc>
+    <loc>/13-object-oriented-programming/inheritance/overview/</loc>
   </url>
   
   <url>
-    <loc>/14-intro-to-crud-and-firebase/firebase/overview/</loc>
+    <loc>/15-intro-to-crud-and-firebase/firebase/overview/</loc>
   </url>
   
   <url>
-    <loc>/16-intro-to-express/express/overview/</loc>
+    <loc>/final-projects/overview-requirements/</loc>
   </url>
   
   <url>
@@ -195,7 +191,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</loc>
+    <loc>/18-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</loc>
   </url>
   
   <url>
@@ -292,7 +288,7 @@
   </url>
   
   <url>
-    <loc>/14-intro-to-crud-and-firebase/firebase/benefits/</loc>
+    <loc>/15-intro-to-crud-and-firebase/firebase/benefits/</loc>
   </url>
   
   <url>
@@ -300,15 +296,11 @@
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/classes/</loc>
+    <loc>/13-object-oriented-programming/classes/</loc>
   </url>
   
   <url>
     <loc>/09-http-and-apis/clients-servers/</loc>
-  </url>
-  
-  <url>
-    <loc>/16-intro-to-express/clients-servers/</loc>
   </url>
   
   <url>
@@ -320,7 +312,7 @@
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/classes/constructor/</loc>
+    <loc>/13-object-oriented-programming/classes/constructor/</loc>
   </url>
   
   <url>
@@ -332,7 +324,7 @@
   </url>
   
   <url>
-    <loc>/14-intro-to-crud-and-firebase/crud/</loc>
+    <loc>/15-intro-to-crud-and-firebase/crud/</loc>
   </url>
   
   <url>
@@ -356,11 +348,7 @@
   </url>
   
   <url>
-    <loc>/16-intro-to-express/express/</loc>
-  </url>
-  
-  <url>
-    <loc>/13-object-oriented-js/classes/methods/getters-and-setters/</loc>
+    <loc>/13-object-oriented-programming/classes/methods/getters-and-setters/</loc>
   </url>
   
   <url>
@@ -368,7 +356,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/github-pages/</loc>
+    <loc>/18-deploying-your-app/github-pages/</loc>
   </url>
   
   <url>
@@ -400,11 +388,7 @@
   </url>
   
   <url>
-    <loc>/11-lab-giphy-weather-app/instructions/</loc>
-  </url>
-  
-  <url>
-    <loc>/15-project-firebase-todo-app/instructions/</loc>
+    <loc>/16-lab-firebase-todo-app/instructions/</loc>
   </url>
   
   <url>
@@ -428,7 +412,7 @@
   </url>
   
   <url>
-    <loc>/16-intro-to-express/express/middleware/</loc>
+    <loc>/final-projects/milestones-due-dates/</loc>
   </url>
   
   <url>
@@ -460,11 +444,11 @@
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</loc>
+    <loc>/18-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</loc>
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/inheritance/super-and-extends/</loc>
+    <loc>/13-object-oriented-programming/inheritance/super-and-extends/</loc>
   </url>
   
   <url>
@@ -480,7 +464,7 @@
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/classes/encapsulation/</loc>
+    <loc>/13-object-oriented-programming/classes/encapsulation/</loc>
   </url>
   
   <url>
@@ -516,7 +500,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/code-along-hosting-with-github-pages/</loc>
+    <loc>/18-deploying-your-app/code-along-hosting-with-github-pages/</loc>
   </url>
   
   <url>
@@ -532,15 +516,15 @@
   </url>
   
   <url>
-    <loc>/14-intro-to-crud-and-firebase/firebase/</loc>
+    <loc>/15-intro-to-crud-and-firebase/firebase/</loc>
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/classes/methods/general-methods/</loc>
+    <loc>/13-object-oriented-programming/classes/methods/general-methods/</loc>
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/classes/instances/</loc>
+    <loc>/13-object-oriented-programming/classes/instances/</loc>
   </url>
   
   <url>
@@ -548,7 +532,7 @@
   </url>
   
   <url>
-    <loc>/14-intro-to-crud-and-firebase/firebase/nosql-databases/</loc>
+    <loc>/15-intro-to-crud-and-firebase/firebase/nosql-databases/</loc>
   </url>
   
   <url>
@@ -564,19 +548,11 @@
   </url>
   
   <url>
-    <loc>/11-lab-giphy-weather-app/requirements/</loc>
+    <loc>/16-lab-firebase-todo-app/requirements/</loc>
   </url>
   
   <url>
-    <loc>/15-project-firebase-todo-app/requirements/</loc>
-  </url>
-  
-  <url>
-    <loc>/16-intro-to-express/express/routing/</loc>
-  </url>
-  
-  <url>
-    <loc>/17-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</loc>
+    <loc>/18-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</loc>
   </url>
   
   <url>
@@ -648,11 +624,7 @@
   </url>
   
   <url>
-    <loc>/16-intro-to-express/code-along-express-tmdb-app/</loc>
-  </url>
-  
-  <url>
-    <loc>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</loc>
+    <loc>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</loc>
   </url>
   
   <url>
@@ -724,7 +696,7 @@
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/classes/methods/</loc>
+    <loc>/13-object-oriented-programming/classes/methods/</loc>
   </url>
   
   <url>
@@ -740,19 +712,15 @@
   </url>
   
   <url>
-    <loc>/16-intro-to-express/express/route-parameters/</loc>
-  </url>
-  
-  <url>
     <loc>/10-asynchronous-js-and-promises/simulating-async-operations/</loc>
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/classes/methods/static-methods/</loc>
+    <loc>/13-object-oriented-programming/classes/methods/static-methods/</loc>
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</loc>
+    <loc>/18-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</loc>
   </url>
   
   <url>
@@ -760,7 +728,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/surge/</loc>
+    <loc>/18-deploying-your-app/surge/</loc>
   </url>
   
   <url>
@@ -792,7 +760,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/code-along-hosting-with-surge/</loc>
+    <loc>/18-deploying-your-app/code-along-hosting-with-surge/</loc>
   </url>
   
   <url>
@@ -800,7 +768,7 @@
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/inheritance/</loc>
+    <loc>/13-object-oriented-programming/inheritance/</loc>
   </url>
   
   <url>
@@ -936,7 +904,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/securing-sensitive-credentials-with-parcel/</loc>
+    <loc>/18-deploying-your-app/securing-sensitive-credentials-with-parcel/</loc>
   </url>
   
   <url>
@@ -964,7 +932,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/code-along-using-env-variables-with-parcel/</loc>
+    <loc>/18-deploying-your-app/code-along-using-env-variables-with-parcel/</loc>
   </url>
   
   <url>
@@ -1060,7 +1028,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/heroku/</loc>
+    <loc>/18-deploying-your-app/heroku/</loc>
   </url>
   
   <url>
@@ -1108,7 +1076,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/code-along-hosting-with-heroku/</loc>
+    <loc>/18-deploying-your-app/code-along-hosting-with-heroku/</loc>
   </url>
   
   <url>
@@ -1144,7 +1112,7 @@
   </url>
   
   <url>
-    <loc>/11-lab-giphy-weather-app/</loc>
+    <loc>/11-lab-scrabble-scorer-api-app/</loc>
   </url>
   
   <url>
@@ -1184,7 +1152,7 @@
   </url>
   
   <url>
-    <loc>/13-object-oriented-js/</loc>
+    <loc>/13-object-oriented-programming/</loc>
   </url>
   
   <url>
@@ -1193,6 +1161,10 @@
   
   <url>
     <loc>/01-course-intro-and-tools/what-is-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-oop-shopping-cart-app/</loc>
   </url>
   
   <url>
@@ -1209,7 +1181,7 @@
   </url>
   
   <url>
-    <loc>/14-intro-to-crud-and-firebase/</loc>
+    <loc>/15-intro-to-crud-and-firebase/</loc>
   </url>
   
   <url>
@@ -1229,11 +1201,7 @@
   </url>
   
   <url>
-    <loc>/15-project-firebase-todo-app/</loc>
-  </url>
-  
-  <url>
-    <loc>/16-intro-to-express/</loc>
+    <loc>/16-lab-firebase-todo-app/</loc>
   </url>
   
   <url>
@@ -1249,6 +1217,10 @@
   </url>
   
   <url>
+    <loc>/17-project-firebase-quiz-app/</loc>
+  </url>
+  
+  <url>
     <loc>/01-course-intro-and-tools/pseudocode/</loc>
   </url>
   
@@ -1257,7 +1229,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-your-app/</loc>
+    <loc>/18-deploying-your-app/</loc>
   </url>
   
   <url>
@@ -1266,6 +1238,14 @@
   
   <url>
     <loc>/class-resources/cors/</loc>
+  </url>
+  
+  <url>
+    <loc>/19-final-projects-lab/</loc>
+  </url>
+  
+  <url>
+    <loc>/20-final-project-presentations/</loc>
   </url>
   
   <url>
