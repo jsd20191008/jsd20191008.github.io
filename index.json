@@ -1715,6 +1715,13 @@
 	"content": " Functions can call other functions  Function reusability is key results in cleaner code\n Reusing functions leverages key programming principle - Don\u0026rsquo;t Repeat Yourself (DRY)\n  Example  In the example of below, the surfaceAreaOfCube function calls another function (areaOfSquare) instead of duplicating work that was already done  // Function that calculates area of a square  function areaOfSquare(side){ return side * side } areaOfSquare(3) // returns 9  // This is a function that calculates the // surface area of a cube that *reuses* the areaOfSquare function  function surfaceAreaOfCube(side){ return 6 * areaOfSquare(side) } surfaceAreaOfCube(7) // returns 294  JS Bin on jsbin.com\nExercise  Create a function named surfaceAreaOfSphere that calculates the surface area of the Sphere using the following formula: 4 * PI * r**2; the function MUST reuse the provided areaOfCircle function  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/homework-assignments/hw-assignment-04/",
+	"title": "HW Assignment #4",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Tuesday, November 19th\nComplete Homework #4 - Weather App using OpenWeather API  You are tasked with leveraging the API from OpenWeatherMap to display the current weather for a given city. The starter code is hosted on Github, see the url below:\n Github Repo for Homework #4 - Weather App using OpenWeather API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
 	"uri": "/10-asynchronous-js-and-promises/promises/",
 	"title": "Promises",
 	"tags": [],
@@ -1834,13 +1841,6 @@
 	"content": " Code Along: Traffic Light  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Traffic Light  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
-	"uri": "/09-http-and-apis/code-along-twilio-api-sms/",
-	"title": "Code Along: Twilio SMS API",
-	"tags": [],
-	"description": "",
-	"content": " Code Along: Twilio SMS API We\u0026rsquo;ll be using the Twilio API to build a small app that sends text messages.\n1) Sign up for a free Twilio account\n2) Verify your Personal Number - trial accounts are only allowed to send SMS messages to \u0026ldquo;verified numbers\u0026rdquo;, follow this process and add your mobile phone number as a \u0026ldquo;verified number\u0026rdquo;\nYou can optionally set up a Google Voice number as an alternative to using your own mobile number\n 3) Get the starter code*: It\u0026rsquo;s hosted on Github, see the url below:\n Code Along: Twilio SMS API\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  4) Navigate to this guide: Sending Outbound SMS with Nodejs - we\u0026rsquo;ll be following along with this guide to build the application\n"
-},
-{
 	"uri": "/03-control-flow-and-loops/loops-and-iteration/for-each/",
 	"title": "forEach Loop",
 	"tags": [],
@@ -1951,13 +1951,6 @@
 	"tags": [],
 	"description": "",
 	"content": " jQuery Events  The jQuery library provides a collection of methods that serve one of two purposes\n To listen for an event — an event (e.g. clicking a button) is something the user does to trigger an action\n To add a visual effect — a visual effect (e.g. a drop-down menu appearing when a user clicks a button) is something that changes the appearance of the web page\n  Events are often responsible for triggering a visual effect\n  "
-},
-{
-	"uri": "/09-http-and-apis/lab-send-receive-sms-twilio-api/",
-	"title": "Lab: Send &amp; Receive with Twilio SMS API",
-	"tags": [],
-	"description": "",
-	"content": " Lab: Sending and Receiving with Twilio SMS API We\u0026rsquo;re going to build on the Twilio Code Along and follow this tutorial: https://www.twilio.com/docs/sms/quickstart/node#receive-and-reply-to-inbound-sms-messages-with-express\n"
 },
 {
 	"uri": "/04-functions-and-scope/single-responsibility-principle/",

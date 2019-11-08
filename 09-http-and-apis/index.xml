@@ -61,26 +61,5 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
   </description>
     </item>
     
-    <item>
-      <title>Code Along: Twilio SMS API</title>
-      <link>/09-http-and-apis/code-along-twilio-api-sms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/09-http-and-apis/code-along-twilio-api-sms/</guid>
-      <description>Code Along: Twilio SMS API We&amp;rsquo;ll be using the Twilio API to build a small app that sends text messages.
-1) Sign up for a free Twilio account
-2) Verify your Personal Number - trial accounts are only allowed to send SMS messages to &amp;ldquo;verified numbers&amp;rdquo;, follow this process and add your mobile phone number as a &amp;ldquo;verified number&amp;rdquo;
-You can optionally set up a Google Voice number as an alternative to using your own mobile number</description>
-    </item>
-    
-    <item>
-      <title>Lab: Send &amp; Receive with Twilio SMS API</title>
-      <link>/09-http-and-apis/lab-send-receive-sms-twilio-api/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/09-http-and-apis/lab-send-receive-sms-twilio-api/</guid>
-      <description>Lab: Sending and Receiving with Twilio SMS API We&amp;rsquo;re going to build on the Twilio Code Along and follow this tutorial: https://www.twilio.com/docs/sms/quickstart/node#receive-and-reply-to-inbound-sms-messages-with-express</description>
-    </item>
-    
   </channel>
 </rss>

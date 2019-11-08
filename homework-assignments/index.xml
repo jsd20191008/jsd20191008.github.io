@@ -48,5 +48,16 @@ Complete Homework #3 - Rock, Paper, Scissors Application  You are tasked with fi
   </description>
     </item>
     
+    <item>
+      <title>HW Assignment #4</title>
+      <link>/homework-assignments/hw-assignment-04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework-assignments/hw-assignment-04/</guid>
+      <description>Summary of this week&amp;rsquo;s homework assignment: Due Date: Tuesday, November 19th
+Complete Homework #4 - Weather App using OpenWeather API  You are tasked with leveraging the API from OpenWeatherMap to display the current weather for a given city. The starter code is hosted on Github, see the url below:
+ Github Repo for Homework #4 - Weather App using OpenWeather API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
   </channel>
 </rss>
