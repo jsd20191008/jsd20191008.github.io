@@ -203,11 +203,18 @@
 	"content": " JSON.stringify()  When JSON is used to send data from one service to the next \u0026ldquo;over the wire\u0026rdquo; (i.e. via cloud) it is transmitted as a string which makes it lightweight and fast\n JSON.stringify() allows developers to easily transform objects / arrays (or any value) into a JSON string which makes it compatible to be transmitted along with an HTTP Request\n \u0026ldquo;Stringify-ing\u0026rdquo; data is a common step developers take before sending data to another service\n  Example const avengers = { members: [ { name: \u0026#34;Spider-Man\u0026#34;, alias: \u0026#34;Peter Parker\u0026#34; }, { name: \u0026#34;Black Widow\u0026#34;, alias: \u0026#34;Natasha Romanova\u0026#34; } ] } // convert object into a JSON string  const jsonString = JSON.stringify(avengers)) console.log(jsonString) console.log(typeof jsonString); // result: string  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/18-lab-deployfest/lab-deployfest/",
+	"title": "Lab: Deployfest",
+	"tags": [],
+	"description": "",
+	"content": " Use class time to deploy and host your final projects using either Github Pages, Surge or Heroku (whichever is most appropriate for your project)\n Project Check-ins with Instructor\n In-class time to work on Final Projects\n  "
+},
+{
 	"uri": "/19-final-projects-lab/lab-final-projects/",
 	"title": "Lab: Final Projects",
 	"tags": [],
 	"description": "",
-	"content": " Work on your finalizing your projects\n Ensure your project is deployed \u0026amp; hosted using either Github Pages or Heroku\n At this point you should only be adding finishing touches (fine tuning CSS, fixing indentation, etc)\n You should avoid adding new features at this point\n  "
+	"content": " Work on your finalizing your projects\n Ensure your project is deployed \u0026amp; hosted using either Github Pages, Surge or Heroku\n At this point you should only be adding finishing touches (fine tuning CSS, fixing indentation, etc)\n You should avoid adding new features at this point\n  "
 },
 {
 	"uri": "/09-http-and-apis/objectives/",
@@ -245,14 +252,14 @@
 	"content": " Explain what CRUD means\n Learn about Firebase and its benefits\n Use Firebase\u0026rsquo;s real-time database to provide data persistence to a front-end app\n  "
 },
 {
-	"uri": "/16-lab-firebase-todo-app/objectives/",
+	"uri": "/16-project-firebase-todo-app/objectives/",
 	"title": "Objectives",
 	"tags": [],
 	"description": "",
 	"content": " Leverage knowledge of Firebase to add persistent data storage to a Todo Application  "
 },
 {
-	"uri": "/18-deploying-your-app/objectives/",
+	"uri": "/17-deploying-and-hosting/objectives/",
 	"title": "Objectives",
 	"tags": [],
 	"description": "",
@@ -329,7 +336,7 @@
 	"content": " Step 1: Create New Slack Workspace We\u0026rsquo;re going to need a Slack workspace to test our bot. Click on the link below and follow the instructions to create a new Slack workspace\nCreate a new workspace\n"
 },
 {
-	"uri": "/18-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/",
+	"uri": "/17-deploying-and-hosting/code-along-hosting-with-heroku/step-1-install-heroku/",
 	"title": "Step 1: Install Heroku",
 	"tags": [],
 	"description": "",
@@ -616,7 +623,7 @@
 	"content": " Getting \u0026amp; Setting Content  .text()   .html()   .val()   .attr()   "
 },
 {
-	"uri": "/18-deploying-your-app/github-pages/",
+	"uri": "/17-deploying-and-hosting/github-pages/",
 	"title": "Github Pages",
 	"tags": [],
 	"description": "",
@@ -672,7 +679,7 @@
 	"content": " if Statement  Used when you want to have some sort of single branching logic  if (condition) { code to run if condition is true } // run some other code  Example const isRewardsMember = true let totalPrice = 100 if (isRewardsMember) { totalPrice = totalPrice * 0.80 } console.log(totalPrice)  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/16-lab-firebase-todo-app/instructions/",
+	"uri": "/16-project-firebase-todo-app/instructions/",
 	"title": "Instructions",
 	"tags": [],
 	"description": "",
@@ -770,7 +777,7 @@
 	"content": " Step 2: Create New Slack App Slack bots are packaged as Slack apps. Slack apps allow you to add more functionality into your Slack workspace\n To create your new Slack app, go to this page: https://api.slack.com/apps?new_app=1 and set your app name to OpenWeatherBot.\n Set the \u0026ldquo;Development Slack Workspace\u0026rdquo; to the new workspace you created in Step 1.\n  "
 },
 {
-	"uri": "/18-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/",
+	"uri": "/17-deploying-and-hosting/code-along-hosting-with-heroku/step-2-prepare-the-app/",
 	"title": "Step 2: Prepare the App",
 	"tags": [],
 	"description": "",
@@ -868,7 +875,7 @@
 	"content": " Calling a Function  Calling a function means you are using the function (as opposed to defining a function which only tells us what the function can do)\n To call a function you simply write function name followed by parentheses (don’t forget the parentheses!)\n Now you can call this function as many times as you want\n  /** define / declare a function named shout() by itself this doesn\u0026#39;t do anything, we must \u0026#34;Call\u0026#34; it in order to use it **/ function shout() { console.log(\u0026#34;HELLO!\u0026#34;) } /** Calling the function named shout we call a function by writing the name of the function followed by parentheses **/ shout()  JS Bin on jsbin.com\nExercise:  Create a function named beAnnoying that logs 'yolo'. Next, use your knowledge of calling functions to ensure that 'yolo' is printed 3 times in the console  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/18-deploying-your-app/code-along-hosting-with-github-pages/",
+	"uri": "/17-deploying-and-hosting/code-along-hosting-with-github-pages/",
 	"title": "Code Along: Hosting with Github Pages",
 	"tags": [],
 	"description": "",
@@ -952,14 +959,14 @@
 	"content": " All of the settings below can be accessed using the following steps:\n Mac: cmd + , -\u0026gt; Editor PC: ctrl + , -\u0026gt; Editor  Setting indentation levels / default tab-size During our course we will be using a set indentation level of 2 spaces (1 indentation level = 2 spaces). Atom makes it easy conform to this approach by setting our tab to a set level of indentation.\nAfter updating this setting, pressing the tab key will represent one level of indentation which will translate to 2 spaces.\nDisplaying indentation guides Displaying the indentation guide provides a visual way of helping you ensure your indentation levels are correct\nSetting wordwrap Wordwrap ensures that long lines in your code are automatically wrapped to the next line. This improves readability of your code.\n"
 },
 {
-	"uri": "/16-lab-firebase-todo-app/requirements/",
+	"uri": "/16-project-firebase-todo-app/requirements/",
 	"title": "Requirements",
 	"tags": [],
 	"description": "",
 	"content": " Requirements Requirement #1: Add Create Functionality When users attempt to add a new task using the #addItem form, the task should be successfully saved in the app\u0026rsquo;s Firebase database. Within your Firebase database, the name of the new task should be stored as name and the completed value of every newly created task should be set to false\nRequirement #2: Add Read Functionality The Doit app should list all tasks stored in your Firebase database within the #taskList div. Make sure you comment out the hardcoded tasks after you\u0026rsquo;ve successfully completed this step.\nRequirement #3: Add Update Functionality 2a: Users should be able update a task name and have that change reflected in the app\u0026rsquo;s Firebase database.\n2b: Users should be able toggle the checkbox (i.e. check and uncheck) to change the completed status of a task. The updated completed status (resulting from a checkbox change) should be reflected in the app\u0026rsquo;s Firebase database.\nRequirement #4: Add Delete Functionality Users should be able delete a task and have that task also deleted from the app\u0026rsquo;s Firebase database.\n"
 },
 {
-	"uri": "/18-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/",
+	"uri": "/17-deploying-and-hosting/code-along-hosting-with-heroku/step-3-run-heroku-locally/",
 	"title": "Step 3: Run Heroku Locally",
 	"tags": [],
 	"description": "",
@@ -1253,7 +1260,7 @@
 	"content": " Static Methods  Static method calls are made directly on the class and are not callable on instances of the class\n Static methods are prepended with the static keyword\n  class Car { constructor(make, model, price) { this._make = make this._model = model this._price = price } // instance methods  get price() { return this._price } drive() { console.log(\u0026#39;calling \u0026#34;this\u0026#34; in an instance method\u0026#39;, this) console.log(`driving ${this._make}${this._model}`) } // static method  static mostExpensiveCar(cars) { console.log(\u0026#39;calling \u0026#34;this\u0026#34; in a static method\u0026#39;, this) return cars.sort((a, b) =\u0026gt; b.price - a.price)[0] } } // Create 3 instances of the Car class  const car1 = new Car(\u0026#34;honda\u0026#34;, \u0026#34;accord\u0026#34;, 20000) const car2 = new Car(\u0026#34;aston martin\u0026#34;, \u0026#34;db7\u0026#34;, 110000) const car3 = new Car(\u0026#34;bmw\u0026#34;, \u0026#34;5 series\u0026#34;, 50000) // call static method mostExpensiveCar() on the Class (Car)  // not the instance  const priceyCar = Car.mostExpensiveCar([car1, car2, car3]) console.log(priceyCar)  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/18-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/",
+	"uri": "/17-deploying-and-hosting/code-along-hosting-with-heroku/step-4-deploy-to-heroku/",
 	"title": "Step 4: Deploy to Heroku",
 	"tags": [],
 	"description": "",
@@ -1267,7 +1274,7 @@
 	"content": " Run ngrok  Next we need to give our local server access to the internet so our slack app can communicate with it\n ngrok is a tool that allows developers to create \u0026ldquo;tunnels\u0026rdquo; that connect the server running locally (i.e. on your computer) to the internet\n  1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)\n$ ngrok http 3000  Here, we are are telling ngrok to create a local tunnel that connects our server running on port 3000 (i.e. http://localhost:3000) and to ngrok url that is accessible to the internet\n You ngrok command should display output that looks similar to the following (the urls will be unique to your server and will not match the output below):\n  2. Confirm your local server is accessible via the internet At this point in the project, you will want to have multiple tabs open in your command line application. In order for the Slack to be able to communicate with our server both our local server and ngrok must be running in their own separate tabs.\n  Copy the ngrok \u0026ldquo;forwarding\u0026rdquo; url (from our ngrok tab) that begins with https and paste it into the address bar of a new browser tab\n Confirm that the welcome message is successfully displayed when using the ngrok url to access your server\n  "
 },
 {
-	"uri": "/18-deploying-your-app/surge/",
+	"uri": "/17-deploying-and-hosting/surge/",
 	"title": "Surge",
 	"tags": [],
 	"description": "",
@@ -1323,7 +1330,7 @@
 	"content": " Challenges of Asynchronous Programming  Asynchronous programming presents a challenge when we want make multiple asynchronous requests and we want to control the order of the responses  Example Let\u0026rsquo;s see an example of this below:\n/* Modify printLetter() to make it an async function by using .setTimeout After the changes, the letter will be print at a random interval from 0 seconds to 3 seconds */ function printLetter(letter) { setTimeout(() =\u0026gt; { console.log(letter) }, Math.floor(Math.random() * 3000)) } function printAll(){ printLetter(\u0026#34;A\u0026#34;) printLetter(\u0026#34;B\u0026#34;) printLetter(\u0026#34;C\u0026#34;) } console.log(\u0026#39;Calling printAll function\u0026#39;) printAll() console.log(\u0026#39;End of code\u0026#39;)   In the code example above we have turned .printLetter() into an asynchronous function through the use of .setTimeout to randomly delay each function call from anywhere between 0 seconds and 3 seconds\n Run the jsbin below (multiple times) and notice how the order of the printed letters is no longer predictable and that A, B, and C print in a different and random order each time you call printAll\n  JS Bin on jsbin.com\n One way to fix this issue is to use callbacks  "
 },
 {
-	"uri": "/18-deploying-your-app/code-along-hosting-with-surge/",
+	"uri": "/17-deploying-and-hosting/code-along-hosting-with-surge/",
 	"title": "Code Along: Hosting with Surge",
 	"tags": [],
 	"description": "",
@@ -1575,7 +1582,7 @@
 	"content": " Push  Refers to sending your committed changes to a remote repository such as GitHub.com\n For instance, if you change something locally, you\u0026rsquo;d want to then push those changes so that others may access them\n  "
 },
 {
-	"uri": "/18-deploying-your-app/securing-sensitive-credentials-with-parcel/",
+	"uri": "/17-deploying-and-hosting/securing-sensitive-credentials-with-parcel/",
 	"title": "Securing Sensitive Credentials with Parcel",
 	"tags": [],
 	"description": "",
@@ -1624,7 +1631,7 @@
 	"content": " Code Along: Giphy Search API We\u0026rsquo;re going to build an application that uses Giphy\u0026rsquo;s API to display gifs based on search terms provided by users\n The starter code for this code along is hosted on Github, see the url below:\n Code Along: Giphy Search API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
-	"uri": "/18-deploying-your-app/code-along-using-env-variables-with-parcel/",
+	"uri": "/17-deploying-and-hosting/code-along-using-env-variables-with-parcel/",
 	"title": "Code Along: Using Environment Variables with Parcel",
 	"tags": [],
 	"description": "",
@@ -1792,7 +1799,7 @@
 	"content": " forEach Loop  forEach() is an Array method executes a provided function once for each item (or element) in the array\n The function used in forEach is called a callback function because it is being passed as a parameter into another function (we\u0026rsquo;ll cover these concepts in more detail in a later class)\n The callback function for forEach provides the following:\n element - this current element from the array that is being evaluated\n index - this represents the current element\u0026rsquo;s index (or position in the array)\n   callbacks are used extensively in JavaScript; we will discuss them more in detail when we do a deeper dive into functions later in the course\n someArray.forEach(function(element, index) { // code block to be executed for each element in the array })  Example const chipmunks = [\u0026#34;alvin\u0026#34;, \u0026#34;simon\u0026#34;, \u0026#34;theodore\u0026#34;] chipmunks.forEach(function(element, index) { console.log(`${element}is at index ${index}`) })  JS Bin on jsbin.com\nExercise Write a program that uses a forEach loop to print each of the fruit names (found in the provided fruits array) in all caps\nJS Bin on jsbin.com\n"
 },
 {
-	"uri": "/18-deploying-your-app/heroku/",
+	"uri": "/17-deploying-and-hosting/heroku/",
 	"title": "Heroku",
 	"tags": [],
 	"description": "",
@@ -1876,7 +1883,7 @@
 	"content": " Code Along: Giphy Search API with Async / Await We\u0026rsquo;re going to modify our Giphy\u0026rsquo;s API application and use async / await to make our API request\n1) Sign up for a Giphy API Key here: https://developers.giphy.com/ (only for those students who don\u0026rsquo;t already have one)\n2) Get the starter code\n The starter code for this code along is hosted on Github, see the url below:\n Code Along: Giphy Search API with Async / Await\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   3) We\u0026rsquo;ll be using axios to make our API request. Add the following script tag right before your closing \u0026lt;body\u0026gt; tag but before the script tag targeting your app.js file\n\u0026lt;script src=\u0026#34;https://code.jquery.com/jquery-3.4.1.min.js\u0026#34; integrity=\u0026#34;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=\u0026#34; crossorigin=\u0026#34;anonymous\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;script src=\u0026#34;https://unpkg.com/axios/dist/axios.min.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;!-- Add the axios script tag here --\u0026gt; \u0026lt;script src=\u0026#34;js/app.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt;  "
 },
 {
-	"uri": "/18-deploying-your-app/code-along-hosting-with-heroku/",
+	"uri": "/17-deploying-and-hosting/code-along-hosting-with-heroku/",
 	"title": "Code Along: Hosting with Heroku",
 	"tags": [],
 	"description": "",
@@ -2093,11 +2100,18 @@
 	"content": " What is JavaScript?  programming language created in 1995 by Netscape (now Mozilla)\n It was created in 10 days\n Not the same as Java\n  What does JavaScript do?  Adds interactivity to your websites\n Makes web based software feel more like desktop software\n Can be used to save data to a database or to create desktop applications\n Improves overall user experience of web-based applications\n  Advantages of JavaScript  JavaScript is the only programming language that all web browsers understand\n JavaScript is a programming language that is essential for web development\n JavaScript can be run in the browser (i.e. front-end) and on the server (i.e. backend through the use of Node.js)\n  This makes JavaScript the only programming language that is truly \u0026ldquo;full-stack\u0026rdquo; (i.e. supports both front-end and backend development)\n Documentation  Best resource of JavaScript documentation on the web can be found here: Mozilla Development Network - JavaScript Documentation  "
 },
 {
-	"uri": "/16-lab-firebase-todo-app/",
-	"title": "Lab: Firebase Todo App",
+	"uri": "/16-project-firebase-todo-app/",
+	"title": "Project: Firebase Todo App",
 	"tags": [],
 	"description": "",
-	"content": " Lesson 16 Lab: Firebase Todo App "
+	"content": " Lesson 16 Project: Firebase Todo App "
+},
+{
+	"uri": "/17-deploying-and-hosting/",
+	"title": "Deploying and Hosting",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 18 Deploying and Hosting "
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-traversing/",
@@ -2121,13 +2135,6 @@
 	"content": " Other Iterators  There are many other built-in iterator methods, a complete list can be found on MDN’s Array iteration methods list\n As developer, you will be working with arrays of data on a constant basis; which means you\u0026rsquo;ll be visiting the documentation often to look up array methods you may not have used before\n Let\u0026rsquo;s get some practice \u0026ldquo;looking things up\u0026rdquo;\n  Exercise Visit the MDN Array Documentation and find the appropriate iterator method that will allow you to sort the list of words found in the words array in descending alphabetical order\nJS Bin on jsbin.com\n"
 },
 {
-	"uri": "/17-project-firebase-quiz-app/",
-	"title": "Project: Firebase Quiz App",
-	"tags": [],
-	"description": "",
-	"content": " Lesson 17 Project: Firebase Quiz App "
-},
-{
 	"uri": "/01-course-intro-and-tools/pseudocode/",
 	"title": "Pseudocode",
 	"tags": [],
@@ -2142,11 +2149,11 @@
 	"content": " Coding Challenge Sites The following a list of sites that offer coding challenges (i.e. exercises) that will help you sharpen you programming skills:\n Coderbyte | Coding Assessment Platform\n Codewars | Train with Programming Challenges/Kata \n CodinGames | Coding Games and Programming Challenges to Code Better\n Exercism\n HackerRank\n  "
 },
 {
-	"uri": "/18-deploying-your-app/",
-	"title": "Deploying Your App",
+	"uri": "/18-lab-deployfest/",
+	"title": "Lab: Deployfest",
 	"tags": [],
 	"description": "",
-	"content": " Lesson 17 Deploying Your App "
+	"content": " Lesson 18 Lab: Deployfest "
 },
 {
 	"uri": "/01-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/",

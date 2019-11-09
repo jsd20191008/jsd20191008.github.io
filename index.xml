@@ -339,13 +339,25 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     </item>
     
     <item>
+      <title>Lab: Deployfest</title>
+      <link>/18-lab-deployfest/lab-deployfest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/18-lab-deployfest/lab-deployfest/</guid>
+      <description> Use class time to deploy and host your final projects using either Github Pages, Surge or Heroku (whichever is most appropriate for your project)
+ Project Check-ins with Instructor
+ In-class time to work on Final Projects
+  </description>
+    </item>
+    
+    <item>
       <title>Lab: Final Projects</title>
       <link>/19-final-projects-lab/lab-final-projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/19-final-projects-lab/lab-final-projects/</guid>
       <description> Work on your finalizing your projects
- Ensure your project is deployed &amp;amp; hosted using either Github Pages or Heroku
+ Ensure your project is deployed &amp;amp; hosted using either Github Pages, Surge or Heroku
  At this point you should only be adding finishing touches (fine tuning CSS, fixing indentation, etc)
  You should avoid adding new features at this point
   </description>
@@ -414,19 +426,19 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Objectives</title>
-      <link>/16-lab-firebase-todo-app/objectives/</link>
+      <link>/16-project-firebase-todo-app/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/16-lab-firebase-todo-app/objectives/</guid>
+      <guid>/16-project-firebase-todo-app/objectives/</guid>
       <description> Leverage knowledge of Firebase to add persistent data storage to a Todo Application  </description>
     </item>
     
     <item>
       <title>Objectives</title>
-      <link>/18-deploying-your-app/objectives/</link>
+      <link>/17-deploying-and-hosting/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/objectives/</guid>
+      <guid>/17-deploying-and-hosting/objectives/</guid>
       <description> Deploy a JavaScript-based application using Github Pages, Surge or Heroku
  Learn how to secure sensitive credentials in a &amp;ldquo;non node-based&amp;rdquo; front-end application
  Deploy your final projects the approach that best fits your application&amp;rsquo;s needs
@@ -554,10 +566,10 @@ Create a new workspace</description>
     
     <item>
       <title>Step 1: Install Heroku</title>
-      <link>/18-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</link>
+      <link>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-1-install-heroku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/code-along-hosting-with-heroku/step-1-install-heroku/</guid>
+      <guid>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-1-install-heroku/</guid>
       <description> Step 1: Install Heroku a. Sign up for a free Heroku account  Sign up here: https://signup.heroku.com/signup/dc  
 b. Install Heroku Command Line Interface (CLI)  Follow the instructions for your Operation System found here: https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true#set-up  
 c. Use the Heroku CLI to log into your Heroku Account  Once installed, open your terminal and run the command below to log into the Heroku CLI
@@ -956,10 +968,10 @@ const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new P
     
     <item>
       <title>Github Pages</title>
-      <link>/18-deploying-your-app/github-pages/</link>
+      <link>/17-deploying-and-hosting/github-pages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/github-pages/</guid>
+      <guid>/17-deploying-and-hosting/github-pages/</guid>
       <description> What is Github Pages?  GitHub Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository
  GitHub Pages is a static site hosting service and doesn&amp;rsquo;t support server-side code such as, Express (via Node JS), Ruby, Python or PHP
   </description>
@@ -997,10 +1009,10 @@ Complete Homework #1 - Functions  You are tasked with completing the problem set
     
     <item>
       <title>Instructions</title>
-      <link>/16-lab-firebase-todo-app/instructions/</link>
+      <link>/16-project-firebase-todo-app/instructions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/16-lab-firebase-todo-app/instructions/</guid>
+      <guid>/16-project-firebase-todo-app/instructions/</guid>
       <description>Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase&amp;rsquo;s Realtime Database product
 Instructions 1) Download starter code
  The starter code for this code along is hosted on Github, see the url below:
@@ -1116,10 +1128,10 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
     
     <item>
       <title>Step 2: Prepare the App</title>
-      <link>/18-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</link>
+      <link>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-2-prepare-the-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/code-along-hosting-with-heroku/step-2-prepare-the-app/</guid>
+      <guid>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-2-prepare-the-app/</guid>
       <description>Prepare the App During this step we are going to get the application ready for a Heroku deployment
 a. Install parcel-bundler locally Since this application used Parcel, we need to instruct Heroku&amp;rsquo;s servers to install Parcel before it tries to &amp;ldquo;build&amp;rdquo; the application in the cloud
  In your terminal, navigate to the project folder and run the following command:
@@ -1250,10 +1262,10 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     
     <item>
       <title>Code Along: Hosting with Github Pages</title>
-      <link>/18-deploying-your-app/code-along-hosting-with-github-pages/</link>
+      <link>/17-deploying-and-hosting/code-along-hosting-with-github-pages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/code-along-hosting-with-github-pages/</guid>
+      <guid>/17-deploying-and-hosting/code-along-hosting-with-github-pages/</guid>
       <description>Code Along: Hosting with Github Pages  Together we&amp;rsquo;ll walk through the process of hosting a static application, an application that does not have a server (i.e. Express), on Github Pages  Instructions 1. Find Traffic Light project Using your operating system&amp;rsquo;s finder / explorer application, copy your Traffic Light application (project name: traffic-light) application from a lesson earlier in the course folder to your lesson_17 folder
  If you do not have a working version of traffic-light you can clone down a working version here</description>
     </item>
@@ -1346,20 +1358,20 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     
     <item>
       <title>Requirements</title>
-      <link>/16-lab-firebase-todo-app/requirements/</link>
+      <link>/16-project-firebase-todo-app/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/16-lab-firebase-todo-app/requirements/</guid>
+      <guid>/16-project-firebase-todo-app/requirements/</guid>
       <description>Requirements Requirement #1: Add Create Functionality When users attempt to add a new task using the #addItem form, the task should be successfully saved in the app&amp;rsquo;s Firebase database. Within your Firebase database, the name of the new task should be stored as name and the completed value of every newly created task should be set to false
 Requirement #2: Add Read Functionality The Doit app should list all tasks stored in your Firebase database within the #taskList div.</description>
     </item>
     
     <item>
       <title>Step 3: Run Heroku Locally</title>
-      <link>/18-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</link>
+      <link>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-3-run-heroku-locally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/code-along-hosting-with-heroku/step-3-run-heroku-locally/</guid>
+      <guid>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-3-run-heroku-locally/</guid>
       <description>Step 3: Run Heroku Locally Heroku&amp;rsquo;s CLI has a feature that allows us to run application locally in a &amp;ldquo;heroku production-like&amp;rdquo; environment
 This is a great way to catch issues before deploying the production
 a. Copy .env.local to .env When running heroku locally it, heroku will automatically look for the .env (and not .env.local) for any potential environment variables
@@ -1737,10 +1749,10 @@ Atom Editor v1.</description>
     
     <item>
       <title>Step 4: Deploy to Heroku</title>
-      <link>/18-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</link>
+      <link>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</guid>
+      <guid>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</guid>
       <description>Step 4: Deploy to Heroku Now it&amp;rsquo;s time to deploy our application to production (i.e. Heroku&amp;rsquo;s cloud servers)
 a. Create a &amp;ldquo;Heroku app&amp;rdquo;  In your terminal (from within your project folder) run the following command to create a Heroku app
 $ heroku create  This will result in output that looks like the following:
@@ -1761,10 +1773,10 @@ $ heroku create  This will result in output that looks like the following:
     
     <item>
       <title>Surge</title>
-      <link>/18-deploying-your-app/surge/</link>
+      <link>/17-deploying-and-hosting/surge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/surge/</guid>
+      <guid>/17-deploying-and-hosting/surge/</guid>
       <description> What is Surge?  An alternative to Github pages
  Best used for Static websites
  Simple to deploy
@@ -1829,10 +1841,10 @@ $ heroku create  This will result in output that looks like the following:
     
     <item>
       <title>Code Along: Hosting with Surge</title>
-      <link>/18-deploying-your-app/code-along-hosting-with-surge/</link>
+      <link>/17-deploying-and-hosting/code-along-hosting-with-surge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/code-along-hosting-with-surge/</guid>
+      <guid>/17-deploying-and-hosting/code-along-hosting-with-surge/</guid>
       <description>Code Along: Hosting with Surge  Together we&amp;rsquo;ll walk through the process of hosting a static website / application (that does not have a backend server like Express) using Surge  Instructions 1. Install the surge package on your computer  Run the following from your command line (from any folder location) to install surge globally on your computer
 $ npm install --global surge   
 2. Run surge from the Traffic Light project folder  On the command line, navigate to the project folder of the Traffic Light app (the one we used in the Github Pages code along)</description>
@@ -2176,10 +2188,10 @@ Complete Homework #3 - Rock, Paper, Scissors Application  You are tasked with fi
     
     <item>
       <title>Securing Sensitive Credentials with Parcel</title>
-      <link>/18-deploying-your-app/securing-sensitive-credentials-with-parcel/</link>
+      <link>/17-deploying-and-hosting/securing-sensitive-credentials-with-parcel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/securing-sensitive-credentials-with-parcel/</guid>
+      <guid>/17-deploying-and-hosting/securing-sensitive-credentials-with-parcel/</guid>
       <description>Securing Sensitive Credentials with Parcel  Often times when using an API in our applications, those API providers require that we send an API Key with our API requests
  Those API keys should be considered sensitive credentials and the best practice is to use Environment Variables to prevent those sensitive credentials from being exposed
  However, the use of Environment Variables have traditionally only been available to applications that have a backend server (i.</description>
@@ -2254,10 +2266,10 @@ $ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd 
     
     <item>
       <title>Code Along: Using Environment Variables with Parcel</title>
-      <link>/18-deploying-your-app/code-along-using-env-variables-with-parcel/</link>
+      <link>/17-deploying-and-hosting/code-along-using-env-variables-with-parcel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/code-along-using-env-variables-with-parcel/</guid>
+      <guid>/17-deploying-and-hosting/code-along-using-env-variables-with-parcel/</guid>
       <description>Code Along: Using Environment Variables with Parcel  Together we&amp;rsquo;ll walk through the process of using Parcel to bundle a static application that needs to secure sensitive credentials  Instructions 1. Access your Giphy API project from a class session earlier in the course  Using your operating system&amp;rsquo;s finder / explorer application, copy your Giphy Search API application (project name: giphy-search-api) application an earlier lesson to your lesson_17 folder</description>
     </item>
     
@@ -2463,10 +2475,10 @@ const getArea = (width, height) =&amp;gt; { const area = width * height return a
     
     <item>
       <title>Heroku</title>
-      <link>/18-deploying-your-app/heroku/</link>
+      <link>/17-deploying-and-hosting/heroku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-deploying-your-app/heroku/</guid>
+      <guid>/17-deploying-and-hosting/heroku/</guid>
       <description>What is Heroku?  Heroku is a PaaS (Platform as a Service) that enables developers to easily host (deploy), monitor and scale their applications
  Supports many different languages (Node.js (JavaScript), Ruby, Python, Jav, PHP, etc) and supports virtually any type of application (from static websites to server-backed applications connected to a database)
  Heroku&amp;rsquo;s focus is to take the pain of deploying applications and maintaining environment (server updates &amp;amp; scalability, database backups, etc) so developers can focus solely on building their applications</description>
