@@ -214,7 +214,7 @@
 	"title": "Lab: Final Projects",
 	"tags": [],
 	"description": "",
-	"content": " Work on your finalizing your projects\n Ensure your project is deployed \u0026amp; hosted using either Github Pages, Surge or Heroku\n At this point you should only be adding finishing touches (fine tuning CSS, fixing indentation, etc)\n You should avoid adding new features at this point\n  "
+	"content": " Use class time to work on your finalizing your projects\n Ensure your project is deployed \u0026amp; hosted using either Github Pages, Surge or Heroku\n You should avoid adding new features at this point (Feature freeze)\n  "
 },
 {
 	"uri": "/09-http-and-apis/objectives/",

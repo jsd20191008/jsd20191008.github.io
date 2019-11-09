@@ -356,10 +356,9 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/19-final-projects-lab/lab-final-projects/</guid>
-      <description> Work on your finalizing your projects
+      <description> Use class time to work on your finalizing your projects
  Ensure your project is deployed &amp;amp; hosted using either Github Pages, Surge or Heroku
- At this point you should only be adding finishing touches (fine tuning CSS, fixing indentation, etc)
- You should avoid adding new features at this point
+ You should avoid adding new features at this point (Feature freeze)
   </description>
     </item>
     
