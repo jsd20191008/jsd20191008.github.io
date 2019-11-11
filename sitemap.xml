@@ -452,6 +452,10 @@
   </url>
   
   <url>
+    <loc>/final-projects/milestones-due-dates/submit-project-ideas/</loc>
+  </url>
+  
+  <url>
     <loc>/13-object-oriented-programming/inheritance/super-and-extends/</loc>
   </url>
   
@@ -525,6 +529,10 @@
   
   <url>
     <loc>/13-object-oriented-programming/classes/methods/general-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/get-idea-approved/</loc>
   </url>
   
   <url>
@@ -629,6 +637,10 @@
   
   <url>
     <loc>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/create-github-repository-for-final-project/</loc>
   </url>
   
   <url>
@@ -768,6 +780,10 @@
   </url>
   
   <url>
+    <loc>/final-projects/milestones-due-dates/create-submit-wireframes/</loc>
+  </url>
+  
+  <url>
     <loc>/command-line-js-and-git/git-vocabulary/</loc>
   </url>
   
@@ -853,6 +869,10 @@
   
   <url>
     <loc>/02-javascript-basics/variables/const/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/create-project-plan/</loc>
   </url>
   
   <url>
@@ -953,6 +973,10 @@
   
   <url>
     <loc>/04-functions-and-scope/functions-calling-other-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/host-final-project/</loc>
   </url>
   
   <url>
@@ -1081,6 +1105,10 @@
   
   <url>
     <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/complete-final-project/</loc>
   </url>
   
   <url>

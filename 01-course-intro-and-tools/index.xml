@@ -55,14 +55,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/01-course-intro-and-tools/tools/</guid>
-      <description>Text Editor:
- Why?: Text editor is a program that developers use to create and edit a range of programming language files. We&amp;rsquo;ll be using Atom, because it&amp;rsquo;s open source (free) and really good.
+      <description>Text Editor:  Why?: Text editor is a program that developers use to create and edit a range of programming language files. We&amp;rsquo;ll be using Atom, because it&amp;rsquo;s open source (free) and really good.
  Download Atom
-  Browser:
- Why?: Google chrome is a robust browser with a variety of tools that are helpful to developers.
+  Browser:  Why?: Google chrome is a robust browser with a variety of tools that are helpful to developers.
  Install Google Chrome
-  Github:
- Why?: Github (and Git) are tools/applications used to by developers to manage their code and work collaboratively with each other.</description>
+  Github:  Why?: Github (and Git) are tools/applications used to by developers to manage their code and work collaboratively with each other.</description>
     </item>
     
     <item>

@@ -1138,6 +1138,19 @@ $ npm install parcel-bundler   Do not include the -g or --global flag here</desc
     </item>
     
     <item>
+      <title>Submit Project Ideas</title>
+      <link>/final-projects/milestones-due-dates/submit-project-ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/submit-project-ideas/</guid>
+      <description> Milestone I: Submit Project Ideas  Submit three (3) ideas for your final project
+ Due Date: Thurs, Nov 14th
+ Deliverable: Use this form to submit your final project ideas
+ After your project ideas are submitted, I will schedule some time to meet with you to discuss your ideas
+  </description>
+    </item>
+    
+    <item>
       <title>Super &amp; Extends</title>
       <link>/13-object-oriented-programming/inheritance/super-and-extends/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1300,6 +1313,16 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
       
       <guid>/13-object-oriented-programming/classes/methods/general-methods/</guid>
       <description>General Methods  You can specify &amp;ldquo;regular&amp;rdquo; methods that allow you do things other than simply getting and setting the property values  Example class Car { constructor(make, model) { this._make = make this._model = model this._miles = 30 } get make() { return this._make } get model() { return this._model } get miles() { return this._miles } set model(newModel) { this._model = newModel } drive(newMiles) { console.log(`driving ${newMiles}miles`) this.</description>
+    </item>
+    
+    <item>
+      <title>Get Idea Approved</title>
+      <link>/final-projects/milestones-due-dates/get-idea-approved/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/get-idea-approved/</guid>
+      <description> Milestone II: Get Final Project Idea Approved  Due Date: Tues, Nov 19th
+ After meeting with the instructor and discussing your idea, you&amp;rsquo;ll formally decide what you want to build   </description>
     </item>
     
     <item>
@@ -1545,6 +1568,19 @@ superHero[&#39;secret identity&#39;]`
       <description>Code Along: Firebase Playlist App  Together we&amp;rsquo;ll walk through creating a playlist application that has its data persisted in Firebase&amp;rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
  Code Along: Firebase Playlist App (Updated)
  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+    <item>
+      <title>Create Github Repository for Final Project</title>
+      <link>/final-projects/milestones-due-dates/create-github-repository-for-final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/create-github-repository-for-final-project/</guid>
+      <description>Milestone III: Create Github Repository for Final Project  Due Date: Tues, Nov 19th
+ Create a github repository for your final project, clone the project down to your &amp;lsquo;github&amp;rsquo; folder on your laptop
+ Submit a link to your final project&amp;rsquo;s github repository
+ Here&amp;rsquo;s an example of what link should look like: https://github.com/kareemgrant/kg-awesome-game  Deliverable: Use this form to submit your repository url
+  Do not include spaces in your github repository names</description>
     </item>
     
     <item>
@@ -1850,6 +1886,19 @@ $ npm install --global surge
     </item>
     
     <item>
+      <title>Create &amp; Submit Wireframes</title>
+      <link>/final-projects/milestones-due-dates/create-submit-wireframes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/create-submit-wireframes/</guid>
+      <description>Milestone IV: Create and Submit Wireframes  Due Date: Tues, Nov 26th
+ Create wireframes for each page layout (assuming you have multiple pages with different layouts) of your final project
+ Instructions
+  The following assumes you have already created a github repository for your final project and cloned the project down to your &amp;lsquo;github&amp;rsquo; folder on your laptop (see Milestone II)
+  Add a new folder to your project files/folders for final project (created in Milestone II) called wireframes</description>
+    </item>
+    
+    <item>
       <title>jQuery Selectors</title>
       <link>/06-dom-and-jquery/jquery-overview/jquery-selectors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2070,6 +2119,20 @@ An easy approach to fixing this issue is to do the following:
  The values of these variables can not be changed through reassignment (i.e. have it&amp;rsquo;s value changed using =)
  This help make your code easier to debug and protects certain values from accidentally being overridden in your codebase
   Declaring a variable using const const are the same as let but with one key difference, values can only be assigned once to a const variable</description>
+    </item>
+    
+    <item>
+      <title>Create Project Plan</title>
+      <link>/final-projects/milestones-due-dates/create-project-plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/create-project-plan/</guid>
+      <description>Milestone V: Create Project Plan  Due Date: Fri, Nov 29th
+ Work with the instructor team to break up your final project into a series of steps that you&amp;rsquo;ll turn into tasks
+  Details:
+ Create a &amp;ldquo;Github Project&amp;rdquo; for Final Project&amp;rsquo;s Github repository
+ Invite Kareem (github username: kareemgrant) as a collaborator for your Final Project&amp;rsquo;s Github repository
+  Deliverable: Use this form to confirm that you&amp;rsquo;ve completed this step</description>
     </item>
     
     <item>
@@ -2307,6 +2370,17 @@ $ mkdir nursery_rhymes  Navigate into the nursery_rhymes directory using the cd 
     </item>
     
     <item>
+      <title>Host Final Project</title>
+      <link>/final-projects/milestones-due-dates/host-final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/host-final-project/</guid>
+      <description>Milestone VI: Host Final Project  Due Date: Tues, Dec 10th
+ Deploy and host your fully-functioning project on either Github Pages or Heroku (we&amp;rsquo;ll be going over both options during the &amp;ldquo;Deploying and Hosting&amp;rdquo; lesson)
+  Note: DO NOT wait until your project is complete before you successfully host / deploy your application. The process of deploying / hosting application can be tricky, so figuring it out early ensures that you will avoid scrambling to get this done at the last minute.</description>
+    </item>
+    
+    <item>
       <title>HW Assignment #4</title>
       <link>/homework-assignments/hw-assignment-04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2366,14 +2440,11 @@ let message if (loginSuccessful) { message = &amp;#34;welcome back!&amp;#34; } e
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/01-course-intro-and-tools/tools/</guid>
-      <description>Text Editor:
- Why?: Text editor is a program that developers use to create and edit a range of programming language files. We&amp;rsquo;ll be using Atom, because it&amp;rsquo;s open source (free) and really good.
+      <description>Text Editor:  Why?: Text editor is a program that developers use to create and edit a range of programming language files. We&amp;rsquo;ll be using Atom, because it&amp;rsquo;s open source (free) and really good.
  Download Atom
-  Browser:
- Why?: Google chrome is a robust browser with a variety of tools that are helpful to developers.
+  Browser:  Why?: Google chrome is a robust browser with a variety of tools that are helpful to developers.
  Install Google Chrome
-  Github:
- Why?: Github (and Git) are tools/applications used to by developers to manage their code and work collaboratively with each other.</description>
+  Github:  Why?: Github (and Git) are tools/applications used to by developers to manage their code and work collaboratively with each other.</description>
     </item>
     
     <item>
@@ -2572,6 +2643,17 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
 2) Get the starter code
  The starter code for this code along is hosted on Github, see the url below:
  Code Along: Giphy Search API with Async / Await</description>
+    </item>
+    
+    <item>
+      <title>Complete Final Project</title>
+      <link>/final-projects/milestones-due-dates/complete-final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/final-projects/milestones-due-dates/complete-final-project/</guid>
+      <description> Milestone VII: Complete Final Project  Complete your final project
+ Due Date: Sat, Dec 14th
+  </description>
     </item>
     
     <item>
