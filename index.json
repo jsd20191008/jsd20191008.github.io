@@ -1855,6 +1855,13 @@
 	"content": " Lesson 09 HTTP and APIs "
 },
 {
+	"uri": "/09-http-and-apis/lab-random-color-api-with-ajax/",
+	"title": "Lab: Random Color API with $.ajax()",
+	"tags": [],
+	"description": "",
+	"content": " Lab: Random Color API with $.ajax() Use the CSS Colors API to fetch a random color and use the color and it\u0026rsquo;s details to update the UI of the provided application\n1) Get the starter code  The starter code for this lab is hosted on Github, see the url below:\n Lab: Random Color API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  2) Test the API endpoint using Insomnia Here\u0026rsquo;s the API endpoint that you will use:\nGET https://css-colors-api.herokuapp.com/api/v1/random_color\n3) Using $.ajax() to make an API request to the CSS Colors API  Use jQuery to fill the Circle\u0026rsquo;s background color with the hex code retrieved from the API call\n Fill in the Color name and hexcode in the details area under the circle with information received from the API call\n  "
+},
+{
 	"uri": "/05-arrays-objects/array-review/length-property/",
 	"title": "length Property",
 	"tags": [],
