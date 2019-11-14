@@ -84,16 +84,52 @@
     </item>
     
     <item>
-      <title>Code Along: Giphy API with Async / Await</title>
-      <link>/10-asynchronous-js-and-promises/code-along-giphy-api-with-async-await/</link>
+      <title>Code Along: Random Color API with Promises</title>
+      <link>/10-asynchronous-js-and-promises/code-along-random-color-api-with-promises/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/10-asynchronous-js-and-promises/code-along-giphy-api-with-async-await/</guid>
-      <description>Code Along: Giphy Search API with Async / Await We&amp;rsquo;re going to modify our Giphy&amp;rsquo;s API application and use async / await to make our API request
+      <guid>/10-asynchronous-js-and-promises/code-along-random-color-api-with-promises/</guid>
+      <description>Code Along: Random Color API with Promises We&amp;rsquo;re going to modify a working version of the CSS Colors API App to use promises instead of $.ajax() to make the API call
+1) Get the starter code  The starter code for this lab is hosted on Github, see the url below:
+ Code Along: Random Color API with Promises  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Random Color API with Async/Await</title>
+      <link>/10-asynchronous-js-and-promises/code-along-random-color-api-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/code-along-random-color-api-with-async-await/</guid>
+      <description>Code Along: Random Color API with Async/Await We&amp;rsquo;re going to modify a working version of the CSS Colors API App to use Async/Await instead of $.ajax() to make the API call
+1) Get the starter code  The starter code for this lab is hosted on Github, see the url below:
+ Code Along: Random Color API with Async / Await  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+    <item>
+      <title>Lab: Giphy API with Promises</title>
+      <link>/10-asynchronous-js-and-promises/lab-giphy-api-with-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/lab-giphy-api-with-promises/</guid>
+      <description>Lab: Giphy Search API with Promises Modify our Giphy&amp;rsquo;s API application and use promises to make our API request
 1) Sign up for a Giphy API Key here: https://developers.giphy.com/ (only for those students who don&amp;rsquo;t already have one)
 2) Get the starter code
  The starter code for this code along is hosted on Github, see the url below:
- Code Along: Giphy Search API with Async / Await</description>
+ Lab: Giphy Search API with Promises
+ Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+    <item>
+      <title>Lab: Giphy API with Async / Await</title>
+      <link>/10-asynchronous-js-and-promises/lab-giphy-api-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/lab-giphy-api-with-async-await/</guid>
+      <description>Lab: Giphy Search API with Async / Await Modify our Giphy&amp;rsquo;s API application and use async / await to make our API request
+1) Sign up for a Giphy API Key here: https://developers.giphy.com/ (only for those students who don&amp;rsquo;t already have one)
+2) Get the starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Lab: Giphy Search API with Async / Await</description>
     </item>
     
   </channel>

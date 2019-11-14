@@ -135,6 +135,10 @@
   </url>
   
   <url>
+    <loc>/11-lab-sat-vocab-flash-cards/objectives/</loc>
+  </url>
+  
+  <url>
     <loc>/12-project-build-a-slackbot/objectives/</loc>
   </url>
   
@@ -392,6 +396,10 @@
   </url>
   
   <url>
+    <loc>/11-lab-sat-vocab-flash-cards/instructions/</loc>
+  </url>
+  
+  <url>
     <loc>/16-project-firebase-todo-app/instructions/</loc>
   </url>
   
@@ -557,6 +565,10 @@
   
   <url>
     <loc>/class-resources/atom-editor-settings/</loc>
+  </url>
+  
+  <url>
+    <loc>/11-lab-sat-vocab-flash-cards/requirements/</loc>
   </url>
   
   <url>
@@ -1000,6 +1012,10 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/code-along-random-color-api-with-promises/</loc>
+  </url>
+  
+  <url>
     <loc>/08-dom-jquery-iii/</loc>
   </url>
   
@@ -1096,15 +1112,15 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/code-along-random-color-api-with-async-await/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/code-along-rolling-dice-jquery/</loc>
   </url>
   
   <url>
     <loc>/10-asynchronous-js-and-promises/</loc>
-  </url>
-  
-  <url>
-    <loc>/10-asynchronous-js-and-promises/code-along-giphy-api-with-async-await/</loc>
   </url>
   
   <url>
@@ -1124,11 +1140,19 @@
   </url>
   
   <url>
+    <loc>/10-asynchronous-js-and-promises/lab-giphy-api-with-promises/</loc>
+  </url>
+  
+  <url>
     <loc>/04-functions-and-scope/single-responsibility-principle/</loc>
   </url>
   
   <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/lab-giphy-api-with-async-await/</loc>
   </url>
   
   <url>
@@ -1148,7 +1172,7 @@
   </url>
   
   <url>
-    <loc>/11-lab-scrabble-scorer-api-app/</loc>
+    <loc>/11-lab-sat-vocab-flash-cards/</loc>
   </url>
   
   <url>

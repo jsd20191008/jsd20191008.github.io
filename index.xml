@@ -390,6 +390,15 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Objectives</title>
+      <link>/11-lab-sat-vocab-flash-cards/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-sat-vocab-flash-cards/objectives/</guid>
+      <description> Leverage knowledge of Promises to build an application that makes asynchronous requests to multiple APIs  </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
       <link>/12-project-build-a-slackbot/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1008,6 +1017,19 @@ Complete Homework #1 - Functions  You are tasked with completing the problem set
     
     <item>
       <title>Instructions</title>
+      <link>/11-lab-sat-vocab-flash-cards/instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-sat-vocab-flash-cards/instructions/</guid>
+      <description> Overview You are tasked with building an application that leverages different APIs to display a random SAT word and it&amp;rsquo;s Scrabble score
+Instructions 1) Download starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Lab: SAT Vocab Flashcards App  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
+      <title>Instructions</title>
       <link>/16-project-firebase-todo-app/instructions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1376,6 +1398,18 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
       <guid>/class-resources/atom-editor-settings/</guid>
       <description>All of the settings below can be accessed using the following steps:
  Mac: cmd + , -&amp;gt; Editor PC: ctrl + , -&amp;gt; Editor  Setting indentation levels / default tab-size During our course we will be using a set indentation level of 2 spaces (1 indentation level = 2 spaces). Atom makes it easy conform to this approach by setting our tab to a set level of indentation.</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>/11-lab-sat-vocab-flash-cards/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-sat-vocab-flash-cards/requirements/</guid>
+      <description>Requirements Requirement #1: Make API Request to the SAT Vocabulary API to fetch Random SAT Word When users press the &amp;ldquo;Get New SAT Word&amp;rdquo; button the following should happen:
+ The application should make an API request the to the API endpoint below to receive a random SAT vocabulary word:
+GET https://sat-words-api.herokuapp.com/api/v1/words/random  Note: This API does not require an API key
+ The application should display both the word and its definition in the UI</description>
     </item>
     
     <item>
@@ -2423,6 +2457,17 @@ let message if (loginSuccessful) { message = &amp;#34;welcome back!&amp;#34; } e
     </item>
     
     <item>
+      <title>Code Along: Random Color API with Promises</title>
+      <link>/10-asynchronous-js-and-promises/code-along-random-color-api-with-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/code-along-random-color-api-with-promises/</guid>
+      <description>Code Along: Random Color API with Promises We&amp;rsquo;re going to modify a working version of the CSS Colors API App to use promises instead of $.ajax() to make the API call
+1) Get the starter code  The starter code for this lab is hosted on Github, see the url below:
+ Code Along: Random Color API with Promises  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+    <item>
       <title>Function Expressions &amp; Anonymous Functions</title>
       <link>/04-functions-and-scope/function-expressions-anonymous-functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2632,6 +2677,17 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>
     
     <item>
+      <title>Code Along: Random Color API with Async/Await</title>
+      <link>/10-asynchronous-js-and-promises/code-along-random-color-api-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/code-along-random-color-api-with-async-await/</guid>
+      <description>Code Along: Random Color API with Async/Await We&amp;rsquo;re going to modify a working version of the CSS Colors API App to use Async/Await instead of $.ajax() to make the API call
+1) Get the starter code  The starter code for this lab is hosted on Github, see the url below:
+ Code Along: Random Color API with Async / Await  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+    <item>
       <title>Code Along: Rolling Dice jQuery</title>
       <link>/06-dom-and-jquery/code-along-rolling-dice-jquery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2641,19 +2697,6 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
  The starter code for this code along is hosted on Github, see the url below:
  Code Along: Rolling Dice jQuery  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
   </description>
-    </item>
-    
-    <item>
-      <title>Code Along: Giphy API with Async / Await</title>
-      <link>/10-asynchronous-js-and-promises/code-along-giphy-api-with-async-await/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/10-asynchronous-js-and-promises/code-along-giphy-api-with-async-await/</guid>
-      <description>Code Along: Giphy Search API with Async / Await We&amp;rsquo;re going to modify our Giphy&amp;rsquo;s API application and use async / await to make our API request
-1) Sign up for a Giphy API Key here: https://developers.giphy.com/ (only for those students who don&amp;rsquo;t already have one)
-2) Get the starter code
- The starter code for this code along is hosted on Github, see the url below:
- Code Along: Giphy Search API with Async / Await</description>
     </item>
     
     <item>
@@ -2679,6 +2722,20 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     </item>
     
     <item>
+      <title>Lab: Giphy API with Promises</title>
+      <link>/10-asynchronous-js-and-promises/lab-giphy-api-with-promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/lab-giphy-api-with-promises/</guid>
+      <description>Lab: Giphy Search API with Promises Modify our Giphy&amp;rsquo;s API application and use promises to make our API request
+1) Sign up for a Giphy API Key here: https://developers.giphy.com/ (only for those students who don&amp;rsquo;t already have one)
+2) Get the starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Lab: Giphy Search API with Promises
+ Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+    <item>
       <title>Single Responsibility Principle</title>
       <link>/04-functions-and-scope/single-responsibility-principle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2699,6 +2756,19 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
       <guid>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</guid>
       <description>Step 10: Make API Request to OpenWeather Now it&amp;rsquo;s time to make an API request from our server to OpenWeather
 1. Add the following code to the bottom of index.js  Add the following code to the bottom of index.js and replace [YOUR_OPENWEATHER_API_KEY] with your api key from OpenWeather  async function openWeatherApi (query) { try { const url = &amp;#39;https://api.openweathermap.org/data/2.5/weather&amp;#39; const apiKey = &amp;#39;[YOUR_OPENWEATHER_API_KEY]&amp;#39; // make api request using axios  const response = await axios.</description>
+    </item>
+    
+    <item>
+      <title>Lab: Giphy API with Async / Await</title>
+      <link>/10-asynchronous-js-and-promises/lab-giphy-api-with-async-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-asynchronous-js-and-promises/lab-giphy-api-with-async-await/</guid>
+      <description>Lab: Giphy Search API with Async / Await Modify our Giphy&amp;rsquo;s API application and use async / await to make our API request
+1) Sign up for a Giphy API Key here: https://developers.giphy.com/ (only for those students who don&amp;rsquo;t already have one)
+2) Get the starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Lab: Giphy Search API with Async / Await</description>
     </item>
     
     <item>

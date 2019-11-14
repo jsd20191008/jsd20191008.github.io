@@ -231,6 +231,13 @@
 	"content": " Understand the differences between synchronous and asynchronous programming\n Explain the different ways developers address issues presented with asynchronous programming\n Create and Consume Promises\n Handle errors generated from promises\n Use Async / Await to improve readability of asynchronous code\n  "
 },
 {
+	"uri": "/11-lab-sat-vocab-flash-cards/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Leverage knowledge of Promises to build an application that makes asynchronous requests to multiple APIs  "
+},
+{
 	"uri": "/12-project-build-a-slackbot/objectives/",
 	"title": "Objectives",
 	"tags": [],
@@ -679,6 +686,13 @@
 	"content": " if Statement  Used when you want to have some sort of single branching logic  if (condition) { code to run if condition is true } // run some other code  Example const isRewardsMember = true let totalPrice = 100 if (isRewardsMember) { totalPrice = totalPrice * 0.80 } console.log(totalPrice)  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/11-lab-sat-vocab-flash-cards/instructions/",
+	"title": "Instructions",
+	"tags": [],
+	"description": "",
+	"content": " Overview You are tasked with building an application that leverages different APIs to display a random SAT word and it\u0026rsquo;s Scrabble score\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Lab: SAT Vocab Flashcards App  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
 	"uri": "/16-project-firebase-todo-app/instructions/",
 	"title": "Instructions",
 	"tags": [],
@@ -971,6 +985,13 @@
 	"tags": [],
 	"description": "",
 	"content": " All of the settings below can be accessed using the following steps:\n Mac: cmd + , -\u0026gt; Editor PC: ctrl + , -\u0026gt; Editor  Setting indentation levels / default tab-size During our course we will be using a set indentation level of 2 spaces (1 indentation level = 2 spaces). Atom makes it easy conform to this approach by setting our tab to a set level of indentation.\nAfter updating this setting, pressing the tab key will represent one level of indentation which will translate to 2 spaces.\nDisplaying indentation guides Displaying the indentation guide provides a visual way of helping you ensure your indentation levels are correct\nSetting wordwrap Wordwrap ensures that long lines in your code are automatically wrapped to the next line. This improves readability of your code.\n"
+},
+{
+	"uri": "/11-lab-sat-vocab-flash-cards/requirements/",
+	"title": "Requirements",
+	"tags": [],
+	"description": "",
+	"content": " Requirements Requirement #1: Make API Request to the SAT Vocabulary API to fetch Random SAT Word When users press the \u0026ldquo;Get New SAT Word\u0026rdquo; button the following should happen:\n The application should make an API request the to the API endpoint below to receive a random SAT vocabulary word:\nGET https://sat-words-api.herokuapp.com/api/v1/words/random  Note: This API does not require an API key\n The application should display both the word and its definition in the UI\n  Requirement #2: Make a 2nd API Request to fetch a Scrabble score for the Random SAT word  After receiving the Random SAT word, make an API request to the endpoint below to get the associated Scrabble Score for the word:\nGET https://scrabble-scorer-api.herokuapp.com/api/v1/words/score?word=add_your_word_here   Note: The request parameter: word is required; this API does not require an API Key\n Display the Scrabble Score in the UI  Requirement #3: API calls must use Promises  Promises must be used to make consume / handle the API responses\n Axios must be used to make the API requests\n Vanilla Promise Syntax or Async/Await can be used\n  "
 },
 {
 	"uri": "/16-project-firebase-todo-app/requirements/",
@@ -1743,6 +1764,13 @@
 	"content": " When to use let vs const  Use let when you create a variable where you want to have the option of directly reassigning its value (using =) somewhere in your code\nlet message if (loginSuccessful) { message = \u0026#34;welcome back!\u0026#34; } else { message = \u0026#34;Invalid email or password, please try again\u0026#34; }  Use const in all other occasions\n  "
 },
 {
+	"uri": "/10-asynchronous-js-and-promises/code-along-random-color-api-with-promises/",
+	"title": "Code Along: Random Color API with Promises",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Random Color API with Promises We\u0026rsquo;re going to modify a working version of the CSS Colors API App to use promises instead of $.ajax() to make the API call\n1) Get the starter code  The starter code for this lab is hosted on Github, see the url below:\n Code Along: Random Color API with Promises  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  2) We\u0026rsquo;ll be using axios to make our API request. Add the following script tag right before your closing \u0026lt;body\u0026gt; tag but before the script tag targeting your app.js file\n\u0026lt;script src=\u0026#34;https://code.jquery.com/jquery-3.4.1.min.js\u0026#34; integrity=\u0026#34;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=\u0026#34; crossorigin=\u0026#34;anonymous\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;script src=\u0026#34;https://unpkg.com/axios/dist/axios.min.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;!-- Add the axios script tag here --\u0026gt; \u0026lt;script src=\u0026#34;js/app.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt;  "
+},
+{
 	"uri": "/08-dom-jquery-iii/",
 	"title": "DOM &amp; jQuery III",
 	"tags": [],
@@ -1911,6 +1939,13 @@
 	"content": " ternary Operator  Used as a shortcut for the if statement  condition ? expression that is run if condition is true : expression that is run if condition is false  Example const isLactoseIntolerant = true const milkType = isLactoseIntolerant ? \u0026#34;almond\u0026#34; : \u0026#34;dairy\u0026#34; console.log(milkType)  JS Bin on jsbin.com\nExercise Rewrite the following if..else statement using a ternary operator:\nlet yearOfBirth = 2001 if (yearOfBirth \u0026lt;= 2002) { console.log(\u0026#39;you will be old enough to vote in 2020\u0026#39;) } else { console.log(\u0026#39;Sorry, you will not be old enough to vote next year\u0026#39;) }  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/10-asynchronous-js-and-promises/code-along-random-color-api-with-async-await/",
+	"title": "Code Along: Random Color API with Async/Await",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Random Color API with Async/Await We\u0026rsquo;re going to modify a working version of the CSS Colors API App to use Async/Await instead of $.ajax() to make the API call\n1) Get the starter code  The starter code for this lab is hosted on Github, see the url below:\n Code Along: Random Color API with Async / Await  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  2) We\u0026rsquo;ll be using axios to make our API request. Add the following script tag right before your closing \u0026lt;body\u0026gt; tag but before the script tag targeting your app.js file\n\u0026lt;script src=\u0026#34;https://code.jquery.com/jquery-3.4.1.min.js\u0026#34; integrity=\u0026#34;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=\u0026#34; crossorigin=\u0026#34;anonymous\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;script src=\u0026#34;https://unpkg.com/axios/dist/axios.min.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;!-- Add the axios script tag here --\u0026gt; \u0026lt;script src=\u0026#34;js/app.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt;  "
+},
+{
 	"uri": "/06-dom-and-jquery/code-along-rolling-dice-jquery/",
 	"title": "Code Along: Rolling Dice jQuery",
 	"tags": [],
@@ -1923,13 +1958,6 @@
 	"tags": [],
 	"description": "",
 	"content": " Lesson 10 Asynchronous JS and Promises "
-},
-{
-	"uri": "/10-asynchronous-js-and-promises/code-along-giphy-api-with-async-await/",
-	"title": "Code Along: Giphy API with Async / Await",
-	"tags": [],
-	"description": "",
-	"content": " Code Along: Giphy Search API with Async / Await We\u0026rsquo;re going to modify our Giphy\u0026rsquo;s API application and use async / await to make our API request\n1) Sign up for a Giphy API Key here: https://developers.giphy.com/ (only for those students who don\u0026rsquo;t already have one)\n2) Get the starter code\n The starter code for this code along is hosted on Github, see the url below:\n Code Along: Giphy Search API with Async / Await\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   3) We\u0026rsquo;ll be using axios to make our API request. Add the following script tag right before your closing \u0026lt;body\u0026gt; tag but before the script tag targeting your app.js file\n\u0026lt;script src=\u0026#34;https://code.jquery.com/jquery-3.4.1.min.js\u0026#34; integrity=\u0026#34;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=\u0026#34; crossorigin=\u0026#34;anonymous\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;script src=\u0026#34;https://unpkg.com/axios/dist/axios.min.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;!-- Add the axios script tag here --\u0026gt; \u0026lt;script src=\u0026#34;js/app.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt;  "
 },
 {
 	"uri": "/17-deploying-and-hosting/code-along-hosting-with-heroku/",
@@ -1960,6 +1988,13 @@
 	"content": " jQuery Events  The jQuery library provides a collection of methods that serve one of two purposes\n To listen for an event — an event (e.g. clicking a button) is something the user does to trigger an action\n To add a visual effect — a visual effect (e.g. a drop-down menu appearing when a user clicks a button) is something that changes the appearance of the web page\n  Events are often responsible for triggering a visual effect\n  "
 },
 {
+	"uri": "/10-asynchronous-js-and-promises/lab-giphy-api-with-promises/",
+	"title": "Lab: Giphy API with Promises",
+	"tags": [],
+	"description": "",
+	"content": " Lab: Giphy Search API with Promises Modify our Giphy\u0026rsquo;s API application and use promises to make our API request\n1) Sign up for a Giphy API Key here: https://developers.giphy.com/ (only for those students who don\u0026rsquo;t already have one)\n2) Get the starter code\n The starter code for this code along is hosted on Github, see the url below:\n Lab: Giphy Search API with Promises\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   3) We\u0026rsquo;ll be using axios to make our API request. Add the following script tag right before your closing \u0026lt;body\u0026gt; tag but before the script tag targeting your app.js file\n\u0026lt;script src=\u0026#34;https://code.jquery.com/jquery-3.4.1.min.js\u0026#34; integrity=\u0026#34;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=\u0026#34; crossorigin=\u0026#34;anonymous\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;script src=\u0026#34;https://unpkg.com/axios/dist/axios.min.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;!-- Add the axios script tag here --\u0026gt; \u0026lt;script src=\u0026#34;js/app.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt;  "
+},
+{
 	"uri": "/04-functions-and-scope/single-responsibility-principle/",
 	"title": "Single Responsibility Principle",
 	"tags": [],
@@ -1972,6 +2007,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Step 10: Make API Request to OpenWeather Now it\u0026rsquo;s time to make an API request from our server to OpenWeather\n1. Add the following code to the bottom of index.js  Add the following code to the bottom of index.js and replace [YOUR_OPENWEATHER_API_KEY] with your api key from OpenWeather  async function openWeatherApi (query) { try { const url = \u0026#39;https://api.openweathermap.org/data/2.5/weather\u0026#39; const apiKey = \u0026#39;[YOUR_OPENWEATHER_API_KEY]\u0026#39; // make api request using axios  const response = await axios.get(url, { params: { appid: apiKey, q: query, units: \u0026#39;imperial\u0026#39; } }) console.log(response) return response.data } catch (e) { console.log(e) } }   Here\u0026rsquo;s a summary of the code above:\n We\u0026rsquo;re going to use async/await to handle our API request to OpenWeather so we\u0026rsquo;ve prepended async in front of openWeatherApi()\n openWeatherApi() accepts a query parameter which will represent the city name received from slash command\n axios is being used to make a get request to the OpenWeather API\n axios is a \u0026ldquo;promise-based\u0026rdquo; http client, which means it will return a promise after it\u0026rsquo;s done making the request\n we are using await to halt the execution of the rest of the code in the function until a response is received from OpenWeather\n Once the response is received, we are returning the response.data object since axios always includes any payload (data information) in a key named data\n If an error occurs, we are simply logging the error to the console for now\n   2. Update app.post(/weather...) in index.js We are going to update the logic in our route handler app.post(/weather...) so it calls the openWeatherApi()\n Update the app.post(/weather...) route handler to reflect the code below:  app.post(\u0026#39;/weather\u0026#39;, async (req, res) =\u0026gt; { try { console.log(req.body) // respond with an OK to sender within 3 secs  // as required by Slack for delayed responses  // documentation: https://api.slack.com/slash-commands#responding_response_url  res.json() // extract city passed in as a parameter to  // our slash command (/weather cityName)  const query = req.body.text // making API request via openWeatherApi function  const response = await openWeatherApi(query) // print out OpenWeather API  // response to the console  console.log(response) // res.json(data)  } catch (e) { console.log(e) }  3. Try your /weather slash command again  Restart your Express server and go back to your development workspace on Slack and try the /weather slash command again (make sure you include a valid city name): /weather brooklyn\n Go to your command line application and open the tab associated with your Express server\n Confirm the data from our OpenWeather API request is now being displayed in our server log (via) - the output should look similar to the image below:\n   Nice! We just made a successful API request to OpenWeather  "
+},
+{
+	"uri": "/10-asynchronous-js-and-promises/lab-giphy-api-with-async-await/",
+	"title": "Lab: Giphy API with Async / Await",
+	"tags": [],
+	"description": "",
+	"content": " Lab: Giphy Search API with Async / Await Modify our Giphy\u0026rsquo;s API application and use async / await to make our API request\n1) Sign up for a Giphy API Key here: https://developers.giphy.com/ (only for those students who don\u0026rsquo;t already have one)\n2) Get the starter code\n The starter code for this code along is hosted on Github, see the url below:\n Lab: Giphy Search API with Async / Await\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   3) We\u0026rsquo;ll be using axios to make our API request. Add the following script tag right before your closing \u0026lt;body\u0026gt; tag but before the script tag targeting your app.js file\n\u0026lt;script src=\u0026#34;https://code.jquery.com/jquery-3.4.1.min.js\u0026#34; integrity=\u0026#34;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=\u0026#34; crossorigin=\u0026#34;anonymous\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;script src=\u0026#34;https://unpkg.com/axios/dist/axios.min.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;!-- Add the axios script tag here --\u0026gt; \u0026lt;script src=\u0026#34;js/app.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt;  "
 },
 {
 	"uri": "/command-line-js-and-git/git-vocabulary/clone/",
@@ -2002,11 +2044,11 @@
 	"content": " jQuery Manipulation During this section we\u0026rsquo;ll cover:\n Getting \u0026amp; Setting Content   Inserting \u0026amp; Removing Content   CSS \u0026amp; Style Manipulation   "
 },
 {
-	"uri": "/11-lab-scrabble-scorer-api-app/",
-	"title": "Lab: Scrabble Scorer API App",
+	"uri": "/11-lab-sat-vocab-flash-cards/",
+	"title": "Lab: SAT Vocab Flashcards App",
 	"tags": [],
 	"description": "",
-	"content": " Lesson 11 Lab: Scrabble Scorer API App "
+	"content": " Lesson 11 Lab: SAT Vocab Flashcards App "
 },
 {
 	"uri": "/class-resources/node-git-installation/",
