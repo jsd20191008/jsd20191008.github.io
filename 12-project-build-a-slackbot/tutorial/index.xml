@@ -113,53 +113,64 @@ Create a new workspace</description>
     </item>
     
     <item>
-      <title>Step 10: Make API Request to OpenWeather</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</link>
+      <title>Step 10: Create Weather Slash Command</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-10-create-weather-slash-command/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</guid>
-      <description>Step 10: Make API Request to OpenWeather Now it&amp;rsquo;s time to make an API request from our server to OpenWeather
+      <guid>/12-project-build-a-slackbot/tutorial/step-10-create-weather-slash-command/</guid>
+      <description>Step 10: Create a Weather Slash command 1. Go to your Slack developer page  Go to https://api.slack.com/apps and select your OpenWeatherBot app  2. Create a /weather slash command for OpenWeatherBot  Click on Slack Commands in the left side panel and then press the button labeled Create New Command
+ Next fill out the form with the following information and press the &amp;ldquo;Save&amp;rdquo; button:
+ Command: weather Request URL: [YOUR NGROK HTTPS URL]/weather Short Description: Get the current weather of a U.</description>
+    </item>
+    
+    <item>
+      <title>Step 11: Make API Request to OpenWeather</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-11-make-api-request-to-openweather/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/12-project-build-a-slackbot/tutorial/step-11-make-api-request-to-openweather/</guid>
+      <description>Step 11: Make API Request to OpenWeather Now it&amp;rsquo;s time to make an API request from our server to OpenWeather
 1. Add the following code to the bottom of index.js  Add the following code to the bottom of index.js and replace [YOUR_OPENWEATHER_API_KEY] with your api key from OpenWeather  async function openWeatherApi (query) { try { const url = &amp;#39;https://api.openweathermap.org/data/2.5/weather&amp;#39; const apiKey = &amp;#39;[YOUR_OPENWEATHER_API_KEY]&amp;#39; // make api request using axios  const response = await axios.</description>
     </item>
     
     <item>
-      <title>Step 11: Respond to Slack with Current Weather</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-11-respond-to-slack-with-current-weather/</link>
+      <title>Step 12: Respond to Slack with Current Weather</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-12-respond-to-slack-with-current-weather/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-11-respond-to-slack-with-current-weather/</guid>
-      <description>Step 11: Respond to Slack with Current Weather Now that we&amp;rsquo;ve confirmed that we can make an successful API call to OpenWeather, we need to send weather data back to Slack
+      <guid>/12-project-build-a-slackbot/tutorial/step-12-respond-to-slack-with-current-weather/</guid>
+      <description>Step 12: Respond to Slack with Current Weather Now that we&amp;rsquo;ve confirmed that we can make an successful API call to OpenWeather, we need to send weather data back to Slack
 According to Slack&amp;rsquo;s API documentation, if we are going to make an API call on our server as a result of slash command then we should send data back to Slack as a &amp;ldquo;delayed response&amp;rdquo; (see docs)
 In order to send a delayed response to Slack we need to make a POST request back to Slack using the response_url that is sent with the initial request associated with the slash command (in req.</description>
     </item>
     
     <item>
-      <title>Step 12: Use Environment Variables to Protect Secure Credentials</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-12-use-environment-variables-to-protect-secure-credentials/</link>
+      <title>Step 13: Use Environment Variables to Protect Secure Credentials</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-13-use-environment-variables-to-protect-secure-credentials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-12-use-environment-variables-to-protect-secure-credentials/</guid>
-      <description>Step 12: Use Environment Variables to Protect Secure Credentials In our openWeatherApi() function we&amp;rsquo;ve hard coded our API key from OpenWeather. While this works, it is not a best practice because if we were to push our code to Github then anyone who had access to the code would be able to see and potential use our API key. This introduces security risk and can lead to some serious consequences in a real-world application.</description>
+      <guid>/12-project-build-a-slackbot/tutorial/step-13-use-environment-variables-to-protect-secure-credentials/</guid>
+      <description>Step 13: Use Environment Variables to Protect Secure Credentials In our openWeatherApi() function we&amp;rsquo;ve hard coded our API key from OpenWeather. While this works, it is not a best practice because if we were to push our code to Github then anyone who had access to the code would be able to see and potential use our API key. This introduces security risk and can lead to some serious consequences in a real-world application.</description>
     </item>
     
     <item>
-      <title>Step 13: Handle Errors Gracefully</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-13-handle-errors-gracefully/</link>
+      <title>Step 14: Handle Errors Gracefully</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-13-handle-errors-gracefully/</guid>
-      <description>Step 13: Handle Errors Gracefully If you try the pass an invalid city name to your /weather slash command, we&amp;rsquo;ll receive the following error in our server log:
+      <guid>/12-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/</guid>
+      <description>Step 14: Handle Errors Gracefully If you try the pass an invalid city name to your /weather slash command, we&amp;rsquo;ll receive the following error in our server log:
 This is happening because we aren&amp;rsquo;t appropriately handling errors. In an ideal scenario, if a user was to pass an invalid city name to the /weather slash command our server should respond back a message informing users of the error
 1. Update openWeatherApi() in index.</description>
     </item>
     
     <item>
-      <title>Step 14: Enhance Weather Response with Emojis</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-14-enhance-weather-response-with-emojis/</link>
+      <title>Step 15: Enhance Weather Response with Emojis</title>
+      <link>/12-project-build-a-slackbot/tutorial/step-15-enhance-weather-response-with-emojis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-14-enhance-weather-response-with-emojis/</guid>
-      <description>Step 14: Enhance Weather Response with Emojis As a final touch, let&amp;rsquo;s spruce up our forecasts with emojis. Slack has native support for emojies using codes such as 👍
+      <guid>/12-project-build-a-slackbot/tutorial/step-15-enhance-weather-response-with-emojis/</guid>
+      <description>Step 15: Enhance Weather Response with Emojis As a final touch, let&amp;rsquo;s spruce up our forecasts with emojis. Slack has native support for emojies using codes such as 👍
 OpenWeather&amp;rsquo;s API provides &amp;ldquo;weather codes&amp;rdquo; that it uses to categorize the different types of weather conditions (see docs). For example, rain falls under codes in the 500&amp;rsquo;s (5xx) and snow falls under codes in the 600&amp;rsquo;s (6xx).
 Let&amp;rsquo;s map some emojis to the weather codes we receive from OpenWeather to help make our OpenWeatherBot even more informative.</description>
     </item>

@@ -1116,6 +1116,10 @@
   </url>
   
   <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-10-create-weather-slash-command/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/code-along-rolling-dice-jquery/</loc>
   </url>
   
@@ -1148,7 +1152,7 @@
   </url>
   
   <url>
-    <loc>/12-project-build-a-slackbot/tutorial/step-10-make-api-request-to-openweather/</loc>
+    <loc>/12-project-build-a-slackbot/tutorial/step-11-make-api-request-to-openweather/</loc>
   </url>
   
   <url>
@@ -1188,7 +1192,7 @@
   </url>
   
   <url>
-    <loc>/12-project-build-a-slackbot/tutorial/step-11-respond-to-slack-with-current-weather/</loc>
+    <loc>/12-project-build-a-slackbot/tutorial/step-12-respond-to-slack-with-current-weather/</loc>
   </url>
   
   <url>
@@ -1216,7 +1220,7 @@
   </url>
   
   <url>
-    <loc>/12-project-build-a-slackbot/tutorial/step-12-use-environment-variables-to-protect-secure-credentials/</loc>
+    <loc>/12-project-build-a-slackbot/tutorial/step-13-use-environment-variables-to-protect-secure-credentials/</loc>
   </url>
   
   <url>
@@ -1228,7 +1232,7 @@
   </url>
   
   <url>
-    <loc>/12-project-build-a-slackbot/tutorial/step-13-handle-errors-gracefully/</loc>
+    <loc>/12-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/</loc>
   </url>
   
   <url>
@@ -1253,7 +1257,7 @@
   </url>
   
   <url>
-    <loc>/12-project-build-a-slackbot/tutorial/step-14-enhance-weather-response-with-emojis/</loc>
+    <loc>/12-project-build-a-slackbot/tutorial/step-15-enhance-weather-response-with-emojis/</loc>
   </url>
   
   <url>
