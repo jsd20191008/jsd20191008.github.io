@@ -9,24 +9,24 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Conditionals :: JavaScript</title>
+    <title>Code Along: Bank ATM :: JavaScript</title>
 
     
-    <link href="/css/nucleus.css?1574386529" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1574386529" rel="stylesheet">
-    <link href="/css/hybrid.css?1574386529" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1574386529" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1574386529" rel="stylesheet">
-    <link href="/css/auto-complete.css?1574386529" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1574386529" rel="stylesheet">
-    <link href="/css/theme.css?1574386529" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1574386529" rel="stylesheet">
-    <link href="/css/syntax.css?1574386529" rel="stylesheet">
+    <link href="/css/nucleus.css?1574386532" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1574386532" rel="stylesheet">
+    <link href="/css/hybrid.css?1574386532" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1574386532" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1574386532" rel="stylesheet">
+    <link href="/css/auto-complete.css?1574386532" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1574386532" rel="stylesheet">
+    <link href="/css/theme.css?1574386532" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1574386532" rel="stylesheet">
+    <link href="/css/syntax.css?1574386532" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1574386529" rel="stylesheet">
+      <link href="/css/theme-blue.css?1574386532" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1574386529"></script>
+    <script src="/js/jquery-3.3.1.min.js?1574386532"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/03-control-flow-and-loops/conditionals/">
+  <body class="" data-url="/13-object-oriented-programming/code-along-bank-atm/">
     <nav id="sidebar" class="">
 
 
@@ -89,14 +89,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1574386529"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1574386529"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1574386532"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1574386532"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1574386529"></script>
+<script type="text/javascript" src="/js/search.js?1574386532"></script>
 
     
   </div>
@@ -779,7 +779,7 @@
   
     
     <li data-nav-id="/03-control-flow-and-loops/" title="Control Flow and Loops" class="dd-item
-        parent
+        
         
         
         ">
@@ -825,8 +825,8 @@
   
     
     <li data-nav-id="/03-control-flow-and-loops/conditionals/" title="Conditionals" class="dd-item
-        parent
-        active
+        
+        
         
         ">
       <a href="/03-control-flow-and-loops/conditionals/">
@@ -5158,7 +5158,7 @@
   
     
     <li data-nav-id="/13-object-oriented-programming/" title="Object Oriented Programming (OOP)" class="dd-item
-        
+        parent
         
         
         ">
@@ -5497,7 +5497,7 @@
  
   
     
-      <li data-nav-id="/13-object-oriented-programming/code-along-bank-atm/" title="Code Along: Bank ATM" class="dd-item ">
+      <li data-nav-id="/13-object-oriented-programming/code-along-bank-atm/" title="Code Along: Bank ATM" class="dd-item active">
         <a href="/13-object-oriented-programming/code-along-bank-atm/">
         Code Along: Bank ATM
         
@@ -7468,7 +7468,7 @@
             
           
           
-            <a href='/'>JSD</a> > <a href='/03-control-flow-and-loops/'>Control Flow and Loops</a> > Conditionals
+            <a href='/'>JSD</a> > <a href='/13-object-oriented-programming/'>Object Oriented Programming (OOP)</a> > Code Along: Bank ATM
           
         
           
@@ -7487,7 +7487,10 @@
 <ul>
 <li>
 <ul>
-<li><a href="#what-are-conditionals">What are Conditionals?</a></li>
+<li><a href="#code-along-bank-atm">Code Along: Bank ATM</a>
+<ul>
+<li><a href="#get-the-starter-code">Get the starter code</a></li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -7507,7 +7510,7 @@
           
             <h1>
               
-              Conditionals
+              Code Along: Bank ATM
             </h1>
           
 
@@ -7515,35 +7518,28 @@
 
 
 
-	
 
-<h3 id="what-are-conditionals">What are Conditionals?</h3>
+<h3 id="code-along-bank-atm">Code Along: Bank ATM</h3>
 
-<ul>
-<li><p>Conditional statements enable our programs to decide which blocks of code to execute and which to skip, based on whether an &ldquo;expression&rdquo; evaluates to <strong>true or false</strong></p></li>
+<p>We&rsquo;re going to use Classes to complete an application that simulates basic functionality of an ATM</p>
 
-<li><p><strong>if statements</strong> are the most common form of conditionals</p></li>
-
-<li><p>There are a few types of if statements</p>
+<h4 id="get-the-starter-code">Get the starter code</h4>
 
 <ul>
-<li><p><a href="/03-control-flow-and-loops/conditionals/if-statement/">if statement</a></p></li>
+<li><p>The starter code for this lab is hosted on Github, see the url below:</p>
 
-<li><p><a href="/03-control-flow-and-loops/conditionals/if-else/">if..else statement</a></p></li>
-
-<li><p><a href="/03-control-flow-and-loops/conditionals/if-else-if/">if..else if statement</a></p></li>
-
-<li><p><a href="/03-control-flow-and-loops/conditionals/ternary-operator/">ternary operator</a></p></li>
+<ul>
+<li><a href="https://github.com/jsd20191008/bank-atm-app">Code Along: Bank ATM</a></li>
 </ul></li>
+
+<li><p>Use the Assignment Submission Git Workflow (<a href="/class-resources/git-workflow-submitting-assignments/">detailed here</a>) to access and submit the assignment</p></li>
 </ul>
-
-
-
 
 
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -9223,7 +9219,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -9238,9 +9233,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -9256,7 +9248,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -9270,9 +9261,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -9424,7 +9412,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -9437,9 +9424,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -9523,7 +9507,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -9536,9 +9519,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -9784,7 +9764,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -9799,9 +9778,6 @@
             
                 
                     
-                        
-                        
-                    
                 
                 
 
@@ -28374,6 +28350,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -28390,6 +28367,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -29484,6 +29464,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -29498,6 +29479,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -34733,10 +34717,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/03-control-flow-and-loops/lab-js-basics-control-flow-loops/" title="Lab: JS Basics, Control Flow &amp; Loops"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/13-object-oriented-programming/inheritance/super-and-extends/" title="Super &amp; Extends"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/03-control-flow-and-loops/conditionals/if-statement/" title="if Statement" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/13-object-oriented-programming/classes/" title="Classes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -34746,20 +34730,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1574386529"></script>
-    <script src="/js/perfect-scrollbar.min.js?1574386529"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1574386529"></script>
-    <script src="/js/jquery.sticky.js?1574386529"></script>
-    <script src="/js/featherlight.min.js?1574386529"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1574386529"></script>
-    <script src="/js/highlight.pack.js?1574386529"></script>
+    <script src="/js/clipboard.min.js?1574386533"></script>
+    <script src="/js/perfect-scrollbar.min.js?1574386533"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1574386533"></script>
+    <script src="/js/jquery.sticky.js?1574386533"></script>
+    <script src="/js/featherlight.min.js?1574386533"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1574386533"></script>
+    <script src="/js/highlight.pack.js?1574386533"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1574386529"></script>
-    <script src="/js/learn.js?1574386529"></script>
-    <script src="/js/hugo-learn.js?1574386529"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1574386533"></script>
+    <script src="/js/learn.js?1574386533"></script>
+    <script src="/js/hugo-learn.js?1574386533"></script>
 
-    <link href="/mermaid/mermaid.css?1574386529" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1574386529"></script>
+    <link href="/mermaid/mermaid.css?1574386533" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1574386533"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
@@ -34767,3 +34751,4 @@
 
   </body>
 </html>
+

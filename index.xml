@@ -2119,6 +2119,18 @@ An easy approach to fixing this issue is to do the following:
     </item>
     
     <item>
+      <title>Code Along: Bank ATM</title>
+      <link>/13-object-oriented-programming/code-along-bank-atm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-programming/code-along-bank-atm/</guid>
+      <description> Code Along: Bank ATM We&amp;rsquo;re going to use Classes to complete an application that simulates basic functionality of an ATM
+Get the starter code  The starter code for this lab is hosted on Github, see the url below:
+ Code Along: Bank ATM  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
       <title>Code Along: Basic Git Workflow</title>
       <link>/command-line-js-and-git/code-along-basic-git-workflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
