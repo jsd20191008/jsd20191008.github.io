@@ -147,6 +147,10 @@
   </url>
   
   <url>
+    <loc>/14-oop-order-checkout-app/objectives/</loc>
+  </url>
+  
+  <url>
     <loc>/15-intro-to-crud-and-firebase/objectives/</loc>
   </url>
   
@@ -400,6 +404,10 @@
   </url>
   
   <url>
+    <loc>/14-oop-order-checkout-app/instructions/</loc>
+  </url>
+  
+  <url>
     <loc>/16-project-firebase-todo-app/instructions/</loc>
   </url>
   
@@ -569,6 +577,10 @@
   
   <url>
     <loc>/11-lab-sat-vocab-flash-cards/requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-oop-order-checkout-app/requirements/</loc>
   </url>
   
   <url>
@@ -1232,7 +1244,7 @@
   </url>
   
   <url>
-    <loc>/14-oop-shopping-cart-app/</loc>
+    <loc>/14-oop-order-checkout-app/</loc>
   </url>
   
   <url>

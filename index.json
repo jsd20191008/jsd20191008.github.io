@@ -252,6 +252,13 @@
 	"content": " Learn how OOP concepts can be applied using JavaScript\n Understand the benefit of OOP\n Understand the benefits of using Classes\n Create Classes with a public and private interface\n Create Classes that inherit properties and methods from another Class\n  "
 },
 {
+	"uri": "/14-oop-order-checkout-app/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Leverage knowledge of OOP to complete an application that mimics a basic order checkout application  "
+},
+{
 	"uri": "/15-intro-to-crud-and-firebase/objectives/",
 	"title": "Objectives",
 	"tags": [],
@@ -693,6 +700,13 @@
 	"content": " Overview You are tasked with building an application that leverages different APIs to display a random SAT word and it\u0026rsquo;s Scrabble score\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Lab: SAT Vocab Flashcards App  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
+	"uri": "/14-oop-order-checkout-app/instructions/",
+	"title": "Instructions",
+	"tags": [],
+	"description": "",
+	"content": " Overview You are tasked with completing an application that mimics a rudimentary ordering system\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Lab: OOP Order Checkout App  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
 	"uri": "/16-project-firebase-todo-app/instructions/",
 	"title": "Instructions",
 	"tags": [],
@@ -992,6 +1006,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Requirements Requirement #1: Make API Request to the SAT Vocabulary API to fetch Random SAT Word When users press the \u0026ldquo;Get New SAT Word\u0026rdquo; button the following should happen:\n The application should make an API request the to the API endpoint below to receive a random SAT vocabulary word:\nGET https://sat-words-api.herokuapp.com/api/v1/words/random  Note: This API does not require an API key\n The application should display both the word and its definition in the UI\n  Requirement #2: Make a 2nd API Request to fetch a Scrabble score for the Random SAT word  After receiving the Random SAT word, make an API request to the endpoint below to get the associated Scrabble Score for the word:\nGET https://scrabble-scorer-api.herokuapp.com/api/v1/words/score?word=add_your_word_here   Note: The request parameter: word is required; this API does not require an API Key\n Display the Scrabble Score in the UI  Requirement #3: API calls must use Promises  Promises must be used to make consume / handle the API responses\n Axios must be used to make the API requests\n Vanilla Promise Syntax or Async/Await can be used\n  "
+},
+{
+	"uri": "/14-oop-order-checkout-app/requirements/",
+	"title": "Requirements",
+	"tags": [],
+	"description": "",
+	"content": " Requirements Requirement #1: Add OOP Logic For this exercise you will be creating a Checkout class\nIt will have the following properties\u0026hellip;\n items: which should be start out as an empty array\n subtotal: which should start out as 0\n  It should have the following methods\u0026hellip;\n addItem(item):\n accepts an item object as a parameter\n this method adds a new item to the items property (remember this property should be an array)\n Each item object should be structured as follows:\n{ id: 1, name: 'something cool', price: '9.99' }   calculateSubtotal():\n calculates and updates the subtotal property based on the items in the order  calculateTax():\n calculates the sales tax based on the tax rate (8.875%) and the current subtotal  calculateTotal():\n calculates the total amount based on the sales tax and the current subtotal  incrementQuantity(itemId):\n accepts an itemId as the parameter\n this method should take the itemId and use it to find the item in the items (array) property that matches itemId; after which, it will increment the quantity of the matched item by 1\n  decrementQuantity(itemId):\n which accepts an itemId as the parameter\n this method should take the itemId and use it to find the item in the items (array) property that matches itemId; after which, it will decrement the quantity of the matched item by 1\n  removeItem(itemId):\n accepts an itemId as the parameter\n this method should take the \u0026lsquo;itemId\u0026rsquo; and use it to find the item in the items (array) property that matches itemId; after which, it will remove the matched item from the items property\n   Tip: Use console.log() as a means of testing to ensure all of your OOP logic works before moving on to Requirement #2\nRequirement #2: Wire up the UI logic Combine the OOP logic from Requirement #1 with the existing UI code to \u0026ldquo;wire up\u0026rdquo; the application (i.e. make the application fully functional).\nThis will require reviewing the existing UI code and understanding how it works.\nAny changes made the UI should also be reflected in your OOP logic. For example, when a users adds a new item from the UI, that new item should be also be \u0026ldquo;added\u0026rdquo; to the instance of the Checkout class via the addItem(item) method\nTip: use the generateRandomId() function to generate a random id when adding a new item from the UI\n"
 },
 {
 	"uri": "/16-project-firebase-todo-app/requirements/",
@@ -2149,11 +2170,11 @@
 	"content": " What is Programming?  List of instructions that a computer needs in order to complete a task\n Instructions are provided in a programming language that the computer understands\n These set of instructions are commonly referred as source code or a program\n There are many programming languages available, during this course we will be learning JavaScript\n  "
 },
 {
-	"uri": "/14-oop-shopping-cart-app/",
-	"title": "Lab: OOP Shopping Cart App",
+	"uri": "/14-oop-order-checkout-app/",
+	"title": "Lab: OOP Order Checkout App",
 	"tags": [],
 	"description": "",
-	"content": " Lesson 14 Lab: Object Oriented Programming Shopping Cart App "
+	"content": " Lesson 14 Lab: Object Oriented Programming Order Checkout App "
 },
 {
 	"uri": "/12-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/",
