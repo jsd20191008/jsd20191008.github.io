@@ -544,6 +544,10 @@
   </url>
   
   <url>
+    <loc>/15-intro-to-crud-and-firebase/firestore-database/</loc>
+  </url>
+  
+  <url>
     <loc>/13-object-oriented-programming/classes/methods/general-methods/</loc>
   </url>
   
@@ -1322,6 +1326,10 @@
   
   <url>
     <loc>/19-final-projects-lab/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/common-final-project-tasks/</loc>
   </url>
   
   <url>

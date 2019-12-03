@@ -25,11 +25,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/16-project-firebase-todo-app/instructions/</guid>
-      <description>Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase&amp;rsquo;s Realtime Database product
+      <description>Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase&amp;rsquo;s Firestore Database product
 Instructions 1) Download starter code
  The starter code for this code along is hosted on Github, see the url below:
  Project: Firebase Todo App   2) Create a new Firebase project called doit-app
-3) Add a &amp;ldquo;Realtime Database&amp;rdquo; to the project and choose the &amp;ldquo;Start in test mode&amp;rdquo; option</description>
+3) Add a &amp;ldquo;Firestore Database&amp;rdquo; to the project and choose the &amp;ldquo;Start in test mode&amp;rdquo; option</description>
     </item>
     
     <item>

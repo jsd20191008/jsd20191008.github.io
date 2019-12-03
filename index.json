@@ -263,7 +263,7 @@
 	"title": "Objectives",
 	"tags": [],
 	"description": "",
-	"content": " Explain what CRUD means\n Learn about Firebase and its benefits\n Use Firebase\u0026rsquo;s real-time database to provide data persistence to a front-end app\n  "
+	"content": " Explain what CRUD means\n Learn about Firebase and its benefits\n Use Firebase\u0026rsquo;s Firestore database to provide data persistence to a front-end app\n  "
 },
 {
 	"uri": "/16-project-firebase-todo-app/objectives/",
@@ -711,7 +711,7 @@
 	"title": "Instructions",
 	"tags": [],
 	"description": "",
-	"content": " Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase\u0026rsquo;s Realtime Database product\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Project: Firebase Todo App   2) Create a new Firebase project called doit-app\n3) Add a \u0026ldquo;Realtime Database\u0026rdquo; to the project and choose the \u0026ldquo;Start in test mode\u0026rdquo; option\n4) Add a top level node called tasks(in the name field) and paste the following in the value field: { \u0026quot;111\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;do taxes\u0026quot;, \u0026quot;completed\u0026quot;: false }}\nAfter adding the tasks node, your data should look similar to the image below:\n"
+	"content": " Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase\u0026rsquo;s Firestore Database product\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Project: Firebase Todo App   2) Create a new Firebase project called doit-app\n3) Add a \u0026ldquo;Firestore Database\u0026rdquo; to the project and choose the \u0026ldquo;Start in test mode\u0026rdquo; option\n4) Add a top level node called tasks(in the name field) and paste the following in the value field: { \u0026quot;111\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;do taxes\u0026quot;, \u0026quot;completed\u0026quot;: false }}\nAfter adding the tasks node, your data should look similar to the image below:\n"
 },
 {
 	"uri": "/02-javascript-basics/",
@@ -945,6 +945,13 @@
 	"content": " Firebase  Overview   Benefits   NoSQL Databases   "
 },
 {
+	"uri": "/15-intro-to-crud-and-firebase/firestore-database/",
+	"title": "Firestore Database",
+	"tags": [],
+	"description": "",
+	"content": " Firebase Firestore database overview  Cloud-hosted database\n NoSQL database; data is stored as JSON\n Changes made to the database are automatically synchronized for any other computer/phone (i.e. client) that is viewing data from the database\n Firestore database documentation can be found here\n  Benefits  Simple data is easy to store in documents, which are very similar to JSON\n Complex, hierarchical data is easier to organize at scale, using sub collections within documents\n Requires less denormalization and data flattening.\n  Data Structure  data is stored in \u0026ldquo;documents\u0026rdquo; that contain fields mapping to values.\n documents are stored in collections, which are containers for your documents that you can use to organize your data and build queries\n Firebase\u0026rsquo;s Firestore database is structured like a JSON tree (think root and branches)\n Data stored in a JSON tree is hierarchical (parent/child)\n Properties names in the JSON tree can be used as keys (i.e. unique identifiers)\n  { \u0026#34;users\u0026#34;: { \u0026#34;alovelace\u0026#34;: { \u0026#34;name\u0026#34;: \u0026#34;Ada Lovelace\u0026#34;, \u0026#34;contacts\u0026#34;: { \u0026#34;ghopper\u0026#34;: true }, }, \u0026#34;ghopper\u0026#34;: { ... }, \u0026#34;eclarke\u0026#34;: { ... } } }  In the example above, we have a object that contains a list of users. Each user is represented as an object that has a property name or key. alovelace is the key that is tied to the object containing this user\u0026rsquo;s name and contacts.\n As with regular JS Objects, keys must be unique  "
+},
+{
 	"uri": "/13-object-oriented-programming/classes/methods/general-methods/",
 	"title": "General Methods",
 	"tags": [],
@@ -1152,7 +1159,7 @@
 	"title": "Code Along: Firebase Playlist App",
 	"tags": [],
 	"description": "",
-	"content": " Code Along: Firebase Playlist App  Together we\u0026rsquo;ll walk through creating a playlist application that has its data persisted in Firebase\u0026rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Firebase Playlist App (Updated)\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   2. Create a Firebase account  Create a free Firebase Account using the following link: create account  "
+	"content": " Code Along: Firebase Playlist App  Together we\u0026rsquo;ll walk through creating a playlist application that has its data persisted in Firebase\u0026rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Firebase Playlist App\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   2. Create a Firebase account  Create a free Firebase Account using the following link: create account  "
 },
 {
 	"uri": "/final-projects/milestones-due-dates/create-github-repository-for-final-project/",
@@ -1572,7 +1579,7 @@
 	"title": "Create Project Plan",
 	"tags": [],
 	"description": "",
-	"content": " Milestone V: Create Project Plan  Due Date: Fri, Nov 29th\n Work with the instructor team to break up your final project into a series of steps that you\u0026rsquo;ll turn into tasks\n  Details:\n Create a \u0026ldquo;Github Project\u0026rdquo; for Final Project\u0026rsquo;s Github repository\n Invite Kareem (github username: kareemgrant) as a collaborator for your Final Project\u0026rsquo;s Github repository\n  Deliverable: Use this form to confirm that you\u0026rsquo;ve completed this step\n"
+	"content": " Milestone V: Create Project Plan  Due Date: Fri, Nov 29th\n Work with the instructor team to break up your final project into a series of steps that you\u0026rsquo;ll turn into tasks\n  Details:\n Create a \u0026ldquo;Github Project\u0026rdquo; for Final Project\u0026rsquo;s Github repository (see instructions found here )\n Here\u0026rsquo;s a list of the (most common final project tasks) to help you get started as you create your project plans\n Invite Kareem (github username: kareemgrant) as a collaborator for your Final Project\u0026rsquo;s Github repository\n  Deliverable: Use this form to confirm that you\u0026rsquo;ve completed this step\n"
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/",
@@ -2308,6 +2315,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Lesson 19 Final Projects Lab "
+},
+{
+	"uri": "/class-resources/common-final-project-tasks/",
+	"title": "Common Final Project Tasks",
+	"tags": [],
+	"description": "",
+	"content": " Common Final Project Tasks Use the following list to help you get started when deciding on how to break of your final project into actionable steps / tasks\nThese are the most common tasks that I\u0026rsquo;ve found are applicable to \u0026ldquo;most\u0026rdquo; student projects. You should add additional project tasks that are specific to your particular project.\n   Task Description / Notes     Translate wireframes into HTML / CSS Use your wireframes as a guide to create html and css for your final project, this should be one of the first tasks you complete as html and css can be time consuming   Research viable APIs If you plan on using an API, you need to read the API documentation and ensure it provides that data needed for your project   Test API to confirm data can successfully be retrieved Once you\u0026rsquo;ve selected an API, use Insomnia or make an sample API request from your code to ensure you can successfully fetch data from the API; this should be done as soon as possible   Set up Final project repo and confirm that I can commit without any issues You should be committing your code early and often, ensure that you can commit and push changes to Github using git add . \u0026amp; git commit -m [add commit message] \u0026amp; git push origin master without any issues   Choose most appropriate hosting option (Github Pages, Heroku or Surge) for my final project We will be going over hosting and deploying in a later lesson; you\u0026rsquo;ll have a better idea of which option is most appropriate for your final project then   Successfully deploy and host final project IMPORTANT: your project does not need to be finished in order for it to be deployed - this step should be done before the project is complete to address any issues as early as possible   Create sample test data If your project requires test data, you should create that data (most likely as a JS objects)    "
 },
 {
 	"uri": "/20-final-project-presentations/",

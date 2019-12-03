@@ -18,7 +18,7 @@
       <guid>/15-intro-to-crud-and-firebase/objectives/</guid>
       <description> Explain what CRUD means
  Learn about Firebase and its benefits
- Use Firebase&amp;rsquo;s real-time database to provide data persistence to a front-end app
+ Use Firebase&amp;rsquo;s Firestore database to provide data persistence to a front-end app
   </description>
     </item>
     
@@ -36,13 +36,27 @@
     </item>
     
     <item>
+      <title>Firestore Database</title>
+      <link>/15-intro-to-crud-and-firebase/firestore-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/15-intro-to-crud-and-firebase/firestore-database/</guid>
+      <description>Firebase Firestore database overview  Cloud-hosted database
+ NoSQL database; data is stored as JSON
+ Changes made to the database are automatically synchronized for any other computer/phone (i.e. client) that is viewing data from the database
+ Firestore database documentation can be found here
+  Benefits  Simple data is easy to store in documents, which are very similar to JSON
+ Complex, hierarchical data is easier to organize at scale, using sub collections within documents</description>
+    </item>
+    
+    <item>
       <title>Code Along: Firebase Playlist App</title>
       <link>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</guid>
       <description>Code Along: Firebase Playlist App  Together we&amp;rsquo;ll walk through creating a playlist application that has its data persisted in Firebase&amp;rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
- Code Along: Firebase Playlist App (Updated)
+ Code Along: Firebase Playlist App
  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
     </item>
     

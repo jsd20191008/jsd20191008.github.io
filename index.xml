@@ -437,7 +437,7 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
       <guid>/15-intro-to-crud-and-firebase/objectives/</guid>
       <description> Explain what CRUD means
  Learn about Firebase and its benefits
- Use Firebase&amp;rsquo;s real-time database to provide data persistence to a front-end app
+ Use Firebase&amp;rsquo;s Firestore database to provide data persistence to a front-end app
   </description>
     </item>
     
@@ -1056,11 +1056,11 @@ Instructions 1) Download starter code
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/16-project-firebase-todo-app/instructions/</guid>
-      <description>Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase&amp;rsquo;s Realtime Database product
+      <description>Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase&amp;rsquo;s Firestore Database product
 Instructions 1) Download starter code
  The starter code for this code along is hosted on Github, see the url below:
  Project: Firebase Todo App   2) Create a new Firebase project called doit-app
-3) Add a &amp;ldquo;Realtime Database&amp;rdquo; to the project and choose the &amp;ldquo;Start in test mode&amp;rdquo; option</description>
+3) Add a &amp;ldquo;Firestore Database&amp;rdquo; to the project and choose the &amp;ldquo;Start in test mode&amp;rdquo; option</description>
     </item>
     
     <item>
@@ -1351,6 +1351,20 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     </item>
     
     <item>
+      <title>Firestore Database</title>
+      <link>/15-intro-to-crud-and-firebase/firestore-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/15-intro-to-crud-and-firebase/firestore-database/</guid>
+      <description>Firebase Firestore database overview  Cloud-hosted database
+ NoSQL database; data is stored as JSON
+ Changes made to the database are automatically synchronized for any other computer/phone (i.e. client) that is viewing data from the database
+ Firestore database documentation can be found here
+  Benefits  Simple data is easy to store in documents, which are very similar to JSON
+ Complex, hierarchical data is easier to organize at scale, using sub collections within documents</description>
+    </item>
+    
+    <item>
       <title>General Methods</title>
       <link>/13-object-oriented-programming/classes/methods/general-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1638,7 +1652,7 @@ superHero[&#39;secret identity&#39;]`
       
       <guid>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</guid>
       <description>Code Along: Firebase Playlist App  Together we&amp;rsquo;ll walk through creating a playlist application that has its data persisted in Firebase&amp;rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
- Code Along: Firebase Playlist App (Updated)
+ Code Along: Firebase Playlist App
  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
     </item>
     
@@ -2214,9 +2228,8 @@ Get the starter code  The starter code for this lab is hosted on Github, see the
       <description>Milestone V: Create Project Plan  Due Date: Fri, Nov 29th
  Work with the instructor team to break up your final project into a series of steps that you&amp;rsquo;ll turn into tasks
   Details:
- Create a &amp;ldquo;Github Project&amp;rdquo; for Final Project&amp;rsquo;s Github repository
- Invite Kareem (github username: kareemgrant) as a collaborator for your Final Project&amp;rsquo;s Github repository
-  Deliverable: Use this form to confirm that you&amp;rsquo;ve completed this step</description>
+ Create a &amp;ldquo;Github Project&amp;rdquo; for Final Project&amp;rsquo;s Github repository (see instructions found here )
+ Here&amp;rsquo;s a list of the (most common final project tasks) to help you get started as you create your project plans</description>
     </item>
     
     <item>
@@ -3115,6 +3128,17 @@ HTML &amp;amp; CSS  Codecademy - HTML &amp;amp; CSS course
  Some domains don&amp;rsquo;t allow you to ping them from other domains and some do
   Click here for more information about CORS
  </description>
+    </item>
+    
+    <item>
+      <title>Common Final Project Tasks</title>
+      <link>/class-resources/common-final-project-tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/class-resources/common-final-project-tasks/</guid>
+      <description>Common Final Project Tasks Use the following list to help you get started when deciding on how to break of your final project into actionable steps / tasks
+These are the most common tasks that I&amp;rsquo;ve found are applicable to &amp;ldquo;most&amp;rdquo; student projects. You should add additional project tasks that are specific to your particular project.
+   Task Description / Notes     Translate wireframes into HTML / CSS Use your wireframes as a guide to create html and css for your final project, this should be one of the first tasks you complete as html and css can be time consuming   Research viable APIs If you plan on using an API, you need to read the API documentation and ensure it provides that data needed for your project   Test API to confirm data can successfully be retrieved Once you&amp;rsquo;ve selected an API, use Insomnia or make an sample API request from your code to ensure you can successfully fetch data from the API; this should be done as soon as possible   Set up Final project repo and confirm that I can commit without any issues You should be committing your code early and often, ensure that you can commit and push changes to Github using git add .</description>
     </item>
     
     <item>
