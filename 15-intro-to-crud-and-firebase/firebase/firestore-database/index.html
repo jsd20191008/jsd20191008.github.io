@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>jQuery Syntax :: JavaScript</title>
+    <title>Firestore Database :: JavaScript</title>
 
     
     <link href="/css/nucleus.css?1575585291" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/06-dom-and-jquery/jquery-overview/jquery-syntax/">
+  <body class="" data-url="/15-intro-to-crud-and-firebase/firebase/firestore-database/">
     <nav id="sidebar" class="">
 
 
@@ -2107,7 +2107,7 @@
   
     
     <li data-nav-id="/06-dom-and-jquery/" title="DOM &amp; jQuery" class="dd-item
-        parent
+        
         
         
         ">
@@ -2191,7 +2191,7 @@
   
     
     <li data-nav-id="/06-dom-and-jquery/jquery-overview/" title="jQuery Overview" class="dd-item
-        parent
+        
         
         
         ">
@@ -2346,7 +2346,7 @@
  
   
     
-      <li data-nav-id="/06-dom-and-jquery/jquery-overview/jquery-syntax/" title="jQuery Syntax" class="dd-item active">
+      <li data-nav-id="/06-dom-and-jquery/jquery-overview/jquery-syntax/" title="jQuery Syntax" class="dd-item ">
         <a href="/06-dom-and-jquery/jquery-overview/jquery-syntax/">
         jQuery Syntax
         
@@ -5613,7 +5613,7 @@
   
     
     <li data-nav-id="/15-intro-to-crud-and-firebase/" title="Intro to CRUD and Firebase" class="dd-item
-        
+        parent
         
         
         ">
@@ -5678,7 +5678,7 @@
   
     
     <li data-nav-id="/15-intro-to-crud-and-firebase/firebase/" title="Firebase" class="dd-item
-        
+        parent
         
         
         ">
@@ -5759,7 +5759,7 @@
  
   
     
-      <li data-nav-id="/15-intro-to-crud-and-firebase/firebase/firestore-database/" title="Firestore Database" class="dd-item ">
+      <li data-nav-id="/15-intro-to-crud-and-firebase/firebase/firestore-database/" title="Firestore Database" class="dd-item active">
         <a href="/15-intro-to-crud-and-firebase/firebase/firestore-database/">
         Firestore Database
         
@@ -7577,7 +7577,7 @@
             
           
           
-            <a href='/'>JSD</a> > <a href='/06-dom-and-jquery/'>DOM & jQuery</a> > <a href='/06-dom-and-jquery/jquery-overview/'>jQuery Overview</a> > jQuery Syntax
+            <a href='/'>JSD</a> > <a href='/15-intro-to-crud-and-firebase/'>Intro to CRUD and Firebase</a> > <a href='/15-intro-to-crud-and-firebase/firebase/'>Firebase</a> > Firestore Database
           
         
           
@@ -7598,7 +7598,9 @@
 <ul>
 <li>
 <ul>
-<li><a href="#function">$() function</a></li>
+<li><a href="#firebase-firestore-database-overview">Firebase Firestore database overview</a></li>
+<li><a href="#benefits">Benefits</a></li>
+<li><a href="#data-structure">Data Structure</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -7618,7 +7620,7 @@
           
             <h1>
               
-              jQuery Syntax
+              Firestore Database
             </h1>
           
 
@@ -7627,40 +7629,64 @@
 
 
 
-<h3 id="function">$() function</h3>
+<h3 id="firebase-firestore-database-overview">Firebase Firestore database overview</h3>
 
 <ul>
-<li><p>jQuery uses a built-in function called <code>jQuery()</code> to allow developers to programmatically <strong>select elements on a html page</strong></p></li>
+<li><p>Cloud-hosted database</p></li>
 
-<li><p><code>$()</code> is shorthand for <code>jQuery()</code></p>
+<li><p><strong>NoSQL</strong> database; data is stored as JSON</p></li>
 
-<ul>
-<li>This shorthand syntax is used almost exclusively (because results in less typing) and that is what we will be using throughout the course</li>
-</ul></li>
+<li><p>Changes made to the database are automatically synchronized for any other computer/phone (i.e. client) that is viewing data from the database</p></li>
+
+<li><p>Firestore database documentation can be found <a href="https://firebase.google.com/docs/firestore">here</a></p></li>
 </ul>
-
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js">  <span class="c1">// programmatically &#34;select&#34; all p tags on the page using jQuery() syntax
-</span><span class="c1"></span>  <span class="nx">jQuery</span><span class="p">(</span><span class="s1">&#39;p&#39;</span><span class="p">)</span>
-  
-</code></pre></div>
-
-<p>is the same as:</p>
-
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js">  <span class="c1">// programmatically &#34;select&#34; all p tags on the page using the $() shorthand syntax; most widely used approach
-</span><span class="c1"></span>  <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;p&#39;</span><span class="p">)</span>
-  
-</code></pre></div>
 
 <hr />
 
-<p>Example</p>
+<h3 id="benefits">Benefits</h3>
 
-<p>We will be using the shorthand syntax throughout this course:</p>
+<ul>
+<li><p>Simple data is easy to store in documents, which are very similar to JSON</p></li>
 
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Use jQuery to &#34;select&#34; an element with an id of main and listen for a click event
-</span><span class="c1"></span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&#34;#main&#34;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="nx">doSomething</span><span class="p">)</span>
+<li><p>Complex, hierarchical data is easier to organize at scale, using sub collections within documents</p></li>
+
+<li><p>Requires less denormalization and data flattening.</p></li>
+</ul>
+
+<hr />
+
+<h3 id="data-structure">Data Structure</h3>
+
+<ul>
+<li><p>data is stored in  <strong>&ldquo;documents&rdquo;</strong> that contain fields mapping to values.</p></li>
+
+<li><p><strong>documents</strong> are stored in collections, which are containers for your documents that you can use to organize your data and build queries</p></li>
+
+<li><p>Firebase&rsquo;s Firestore database is structured like a JSON tree (think root and branches)</p></li>
+
+<li><p>Data stored in a JSON tree is hierarchical (parent/child)</p></li>
+
+<li><p>Properties names in the JSON tree can be used as <strong>keys</strong> (i.e. unique identifiers)</p></li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js">    <span class="p">{</span>
+      <span class="s2">&#34;users&#34;</span><span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&#34;alovelace&#34;</span><span class="o">:</span> <span class="p">{</span>
+          <span class="s2">&#34;name&#34;</span><span class="o">:</span> <span class="s2">&#34;Ada Lovelace&#34;</span><span class="p">,</span>
+          <span class="s2">&#34;contacts&#34;</span><span class="o">:</span> <span class="p">{</span> <span class="s2">&#34;ghopper&#34;</span><span class="o">:</span> <span class="kc">true</span> <span class="p">},</span>
+        <span class="p">},</span>
+        <span class="s2">&#34;ghopper&#34;</span><span class="o">:</span> <span class="p">{</span> <span class="p">...</span> <span class="p">},</span>
+        <span class="s2">&#34;eclarke&#34;</span><span class="o">:</span> <span class="p">{</span> <span class="p">...</span> <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  
 </code></pre></div>
+
+<p>In the example above, we have a object that contains a list of users. Each user is represented as an object that has a property name or key. <code>alovelace</code> is the key that is tied to the object containing this user&rsquo;s name and contacts.</p>
+
+<ul>
+<li>As with regular JS Objects, <strong>keys</strong> must be unique</li>
+</ul>
 
 
 <footer class=" footline" >
@@ -15244,7 +15270,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -15259,9 +15284,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -15278,7 +15300,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -15293,9 +15314,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -15542,7 +15560,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -15559,9 +15576,6 @@
             
                 
                     
-                        
-                        
-                    
                 
                 
 
@@ -16542,7 +16556,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -16557,9 +16570,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -16807,7 +16817,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -16822,9 +16831,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -17805,7 +17811,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -17821,9 +17826,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -18070,7 +18072,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -18086,9 +18087,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -19055,7 +19053,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -19070,9 +19067,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -19319,7 +19313,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -19336,9 +19329,6 @@
             
                 
                     
-                        
-                        
-                    
                 
                 
 
@@ -19540,7 +19530,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -19555,9 +19544,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -19805,7 +19791,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -19820,9 +19805,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -30254,6 +30236,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -30268,6 +30251,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -30283,6 +30269,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -30296,6 +30283,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -30345,6 +30335,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -30366,6 +30357,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -30381,6 +30375,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -30395,6 +30390,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -30443,6 +30441,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -30464,6 +30463,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -30478,6 +30478,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -30526,6 +30529,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -30544,6 +30548,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -30560,6 +30567,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -30572,6 +30580,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -30620,6 +30631,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -30645,6 +30657,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -35074,10 +35089,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/06-dom-and-jquery/jquery-overview/add-jquery/via-cdn/" title="Add jQuery via CDN"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/15-intro-to-crud-and-firebase/firebase/nosql-databases/" title="NoSQL Databases"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/06-dom-and-jquery/jquery-overview/add-jquery/" title="Adding jQuery to your Projects" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/16-project-firebase-todo-app/" title="Project: Firebase Todo App" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

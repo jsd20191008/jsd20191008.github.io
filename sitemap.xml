@@ -544,10 +544,6 @@
   </url>
   
   <url>
-    <loc>/15-intro-to-crud-and-firebase/firestore-database/</loc>
-  </url>
-  
-  <url>
     <loc>/13-object-oriented-programming/classes/methods/general-methods/</loc>
   </url>
   
@@ -693,6 +689,10 @@
   
   <url>
     <loc>/07-dom-and-jquery-ii/event-current-target/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-intro-to-crud-and-firebase/firebase/firestore-database/</loc>
   </url>
   
   <url>

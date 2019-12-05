@@ -711,7 +711,7 @@
 	"title": "Instructions",
 	"tags": [],
 	"description": "",
-	"content": " Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase\u0026rsquo;s Firestore Database product\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Project: Firebase Todo App   2) Create a new Firebase project called doit-app\n3) Add a \u0026ldquo;Firestore Database\u0026rdquo; to the project and choose the \u0026ldquo;Start in test mode\u0026rdquo; option\n4) Add a top level node called tasks(in the name field) and paste the following in the value field: { \u0026quot;111\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;do taxes\u0026quot;, \u0026quot;completed\u0026quot;: false }}\nAfter adding the tasks node, your data should look similar to the image below:\n"
+	"content": " Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase\u0026rsquo;s Firestore Database product\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Project: Firebase Todo App   2) Create a new Firebase project called doit-app\n3) Add a \u0026ldquo;Firestore Database\u0026rdquo; to the project and choose the \u0026ldquo;Start in test mode\u0026rdquo; option\n4) Create a collection named tasks\n5) Inside the tasks collection, create 3 tasks (using the auto generated id for each task document), each task should have the following two property names: name (string) and completed (boolean)\nHere\u0026rsquo;s an example of the JSON representation of a task:\n{ \u0026#34;some-auto-id\u0026#34;: { \u0026#34;name\u0026#34;: \u0026#34;do taxes\u0026#34;, \u0026#34;completed\u0026#34;: false } }  "
 },
 {
 	"uri": "/02-javascript-basics/",
@@ -942,14 +942,7 @@
 	"title": "Firebase",
 	"tags": [],
 	"description": "",
-	"content": " Firebase  Overview   Benefits   NoSQL Databases   "
-},
-{
-	"uri": "/15-intro-to-crud-and-firebase/firestore-database/",
-	"title": "Firestore Database",
-	"tags": [],
-	"description": "",
-	"content": " Firebase Firestore database overview  Cloud-hosted database\n NoSQL database; data is stored as JSON\n Changes made to the database are automatically synchronized for any other computer/phone (i.e. client) that is viewing data from the database\n Firestore database documentation can be found here\n  Benefits  Simple data is easy to store in documents, which are very similar to JSON\n Complex, hierarchical data is easier to organize at scale, using sub collections within documents\n Requires less denormalization and data flattening.\n  Data Structure  data is stored in \u0026ldquo;documents\u0026rdquo; that contain fields mapping to values.\n documents are stored in collections, which are containers for your documents that you can use to organize your data and build queries\n Firebase\u0026rsquo;s Firestore database is structured like a JSON tree (think root and branches)\n Data stored in a JSON tree is hierarchical (parent/child)\n Properties names in the JSON tree can be used as keys (i.e. unique identifiers)\n  { \u0026#34;users\u0026#34;: { \u0026#34;alovelace\u0026#34;: { \u0026#34;name\u0026#34;: \u0026#34;Ada Lovelace\u0026#34;, \u0026#34;contacts\u0026#34;: { \u0026#34;ghopper\u0026#34;: true }, }, \u0026#34;ghopper\u0026#34;: { ... }, \u0026#34;eclarke\u0026#34;: { ... } } }  In the example above, we have a object that contains a list of users. Each user is represented as an object that has a property name or key. alovelace is the key that is tied to the object containing this user\u0026rsquo;s name and contacts.\n As with regular JS Objects, keys must be unique  "
+	"content": " Firebase  Overview   Benefits   NoSQL Databases   Firestore Database   "
 },
 {
 	"uri": "/13-object-oriented-programming/classes/methods/general-methods/",
@@ -984,7 +977,7 @@
 	"title": "NoSQL Databases",
 	"tags": [],
 	"description": "",
-	"content": " What is a NoSQL Database  Firebase uses a NoSQL for it\u0026rsquo;s cloud-based databases\n Like many NoSQL databases, Firebase\u0026rsquo;s Real-time database stores data as JSON objects\n NoSQL databases don\u0026rsquo;t enforce strict data structure which results in much more flexibility than traditional SQL databases\n Downsides: when dealing with \u0026ldquo;loosely structured\u0026rdquo; data, common use cases such as building out relationships (for example: a student has many courses, and courses contain many students) in your data can be non-intuitive and complex\n  Firebase\u0026rsquo;s Realtime Database  Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync between your users in realtime\n It\u0026rsquo;s really just one big JSON object that the developers can manage in realtime\n  "
+	"content": " What is a NoSQL Database  Firebase uses a NoSQL for it\u0026rsquo;s cloud-based databases\n Like many NoSQL databases, Firebase\u0026rsquo;s Real-time database stores data as JSON objects\n NoSQL databases don\u0026rsquo;t enforce strict data structure which results in much more flexibility than traditional SQL databases\n Downsides: when dealing with \u0026ldquo;loosely structured\u0026rdquo; data, common use cases such as building out relationships (for example: a student has many courses, and courses contain many students) in your data can be non-intuitive and complex\n  "
 },
 {
 	"uri": "/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/",
@@ -1159,7 +1152,7 @@
 	"title": "Code Along: Firebase Playlist App",
 	"tags": [],
 	"description": "",
-	"content": " Code Along: Firebase Playlist App  Together we\u0026rsquo;ll walk through creating a playlist application that has its data persisted in Firebase\u0026rsquo;s Realtime Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Firebase Playlist App\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   2. Create a Firebase account  Create a free Firebase Account using the following link: create account  "
+	"content": " Code Along: Firebase Playlist App  Together we\u0026rsquo;ll walk through creating a playlist application that has its data persisted in Firebase\u0026rsquo;s Firestore Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Firebase Playlist App\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   2. Create a Firebase account  Create a free Firebase Account using the following link: create account  "
 },
 {
 	"uri": "/final-projects/milestones-due-dates/create-github-repository-for-final-project/",
@@ -1209,6 +1202,13 @@
 	"tags": [],
 	"description": "",
 	"content": " event.currentTarget  JavaScript property (not specific to jQuery) that identifies the current target for the event\n It always refers to the element to which the event handler has been attached, as opposed\n Similar to $(this), with the added benefit that it works with arrow functions\n When using event.currentTarget in the context of jQuery, it should be wrapped in a jQuery object: $(event.currentTarget)\n  Example $(() =\u0026gt; { $(\u0026#34;#box\u0026#34;).click((event) =\u0026gt; { // use $(event.currentTarget) with with an arrow function  // to reference the element that is being \u0026#34;acted on\u0026#34;  $(event.currentTarget).fadeOut(1000) }) })  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/15-intro-to-crud-and-firebase/firebase/firestore-database/",
+	"title": "Firestore Database",
+	"tags": [],
+	"description": "",
+	"content": " Firebase Firestore database overview  Cloud-hosted database\n NoSQL database; data is stored as JSON\n Changes made to the database are automatically synchronized for any other computer/phone (i.e. client) that is viewing data from the database\n Firestore database documentation can be found here\n  Benefits  Simple data is easy to store in documents, which are very similar to JSON\n Complex, hierarchical data is easier to organize at scale, using sub collections within documents\n Requires less denormalization and data flattening.\n  Data Structure  data is stored in \u0026ldquo;documents\u0026rdquo; that contain fields mapping to values.\n documents are stored in collections, which are containers for your documents that you can use to organize your data and build queries\n Firebase\u0026rsquo;s Firestore database is structured like a JSON tree (think root and branches)\n Data stored in a JSON tree is hierarchical (parent/child)\n Properties names in the JSON tree can be used as keys (i.e. unique identifiers)\n  { \u0026#34;users\u0026#34;: { \u0026#34;alovelace\u0026#34;: { \u0026#34;name\u0026#34;: \u0026#34;Ada Lovelace\u0026#34;, \u0026#34;contacts\u0026#34;: { \u0026#34;ghopper\u0026#34;: true }, }, \u0026#34;ghopper\u0026#34;: { ... }, \u0026#34;eclarke\u0026#34;: { ... } } }  In the example above, we have a object that contains a list of users. Each user is represented as an object that has a property name or key. alovelace is the key that is tied to the object containing this user\u0026rsquo;s name and contacts.\n As with regular JS Objects, keys must be unique  "
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-events/form-events/",
